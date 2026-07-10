@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "content:export": "node scripts/export-sheet-content.js"
   },
   "dependencies": {
     "next": "^16.2.6",

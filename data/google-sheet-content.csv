@@ -1,0 +1,568 @@
+path,value,type
+siteConfig.name,Design Essentials,string
+siteConfig.studioLine,INTERIORS / DELHI NCR,string
+siteConfig.tagline,Spaces with purpose. Details with meaning.,string
+siteConfig.description,"Premium residential and commercial interior design, planning and turnkey execution across Delhi NCR.",string
+siteConfig.baseUrl,https://design-essentials-p3.vercel.app,string
+siteConfig.phone,+91 98110 06842,string
+siteConfig.phoneHref,tel:+919811006842,string
+siteConfig.email,info@designessentials.co.in,string
+siteConfig.emailHref,mailto:info@designessentials.co.in,string
+siteConfig.address,"GD-87, GD Block, Dakshini Pitampura, Pitampura, Delhi 110034",string
+siteConfig.shortAddress,"GD-87, GD Block, Dakshini Pitampura, Delhi 110034",string
+siteConfig.serviceAreas.0,Delhi,string
+siteConfig.serviceAreas.1,Gurgaon,string
+siteConfig.serviceAreas.2,Noida,string
+siteConfig.serviceAreas.3,Greater Noida,string
+siteConfig.serviceAreas.4,Faridabad,string
+siteConfig.serviceAreas.5,Ghaziabad,string
+siteConfig.logo.src,/assets/logo4.webp,string
+siteConfig.logo.alt,Design Essentials logo,string
+siteConfig.defaultSeoTitle,Interior Design and Turnkey Execution,string
+siteConfig.schema.streetAddress,"GD-87, GD Block, Dakshini Pitampura, Pitampura",string
+siteConfig.schema.addressLocality,Delhi,string
+siteConfig.schema.postalCode,110034,string
+siteConfig.schema.addressCountry,IN,string
+navItems.0.label,Home,string
+navItems.0.href,/,string
+navItems.1.label,About,string
+navItems.1.href,/about,string
+navItems.2.label,What We Do,string
+navItems.2.href,/what-we-do,string
+navItems.3.label,Showcase,string
+navItems.3.href,/showcase,string
+navItems.4.label,Process,string
+navItems.4.href,/process,string
+navItems.5.label,Contact,string
+navItems.5.href,/contact,string
+imageLibrary.hero,https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=86,string
+imageLibrary.intro,https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.residential,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.commercial,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.turnkey,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.renovation,https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.residence,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
+imageLibrary.exterior,https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.material,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.consultation,https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.bedroom,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.villa,https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.cafe,https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.retail,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
+services.0.id,residential,string
+services.0.number,01,string
+services.0.title,Residential Interior Design,string
+services.0.shortTitle,Residential interiors,string
+services.0.description,"Complete home interiors, modular kitchens, wardrobes, living rooms, bedrooms and renovation planning for apartments, villas and builder floors.",string
+services.0.summary,"Complete homes, kitchens, wardrobes and rooms.",string
+services.0.image,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86,string
+services.0.alt,Residential interior design,string
+services.0.points.0,Space planning and furniture layout,string
+services.0.points.1,"Kitchen, wardrobe and storage design",string
+services.0.points.2,"Lighting, finishes and material guidance",string
+services.0.points.3,Turnkey home execution,string
+services.1.id,commercial,string
+services.1.number,02,string
+services.1.title,Commercial Interior Design,string
+services.1.shortTitle,Commercial interiors,string
+services.1.description,"Office, retail, clinic, hospitality and showroom interiors designed around workflow, customer experience, brand presence and business continuity.",string
+services.1.summary,"Offices, retail, clinics, restaurants and showrooms.",string
+services.1.image,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
+services.1.alt,Commercial office interior design,string
+services.1.points.0,Office and workspace planning,string
+services.1.points.1,"Reception, meeting and customer zones",string
+services.1.points.2,Retail and hospitality experience design,string
+services.1.points.3,Execution planning to reduce disruption,string
+services.2.id,turnkey,string
+services.2.number,03,string
+services.2.title,Turnkey Interior Execution,string
+services.2.shortTitle,Turnkey execution,string
+services.2.description,"For clients who want one accountable team to manage design, sourcing, contractors, installation and final handover.",string
+services.2.summary,"Civil, furniture, electrical, procurement and site coordination.",string
+services.2.image,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
+services.2.alt,Turnkey interior execution,string
+services.2.points.0,"Civil, electrical, plumbing and false ceiling coordination",string
+services.2.points.1,Furniture and modular fabrication,string
+services.2.points.2,Vendor and material management,string
+services.2.points.3,Quality checks and progress updates,string
+services.3.id,renovation,string
+services.3.number,04,string
+services.3.title,Renovation and Space Improvement,string
+services.3.shortTitle,Renovation,string
+services.3.description,"Existing spaces reworked with a focus on better layout, updated finishes, improved lighting and practical upgrades.",string
+services.3.summary,Existing spaces reworked with minimal disruption.,string
+services.3.image,https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=86,string
+services.3.alt,Interior renovation,string
+services.3.points.0,Space optimisation,string
+services.3.points.1,"Wall, flooring and ceiling upgrades",string
+services.3.points.2,Electrical and plumbing updates,string
+services.3.points.3,Furniture and styling refresh,string
+processSteps.0.number,01,string
+processSteps.0.label,DISCOVER,string
+processSteps.0.title,Consultation,string
+processSteps.0.shortTitle,Consult,string
+processSteps.0.description,"Understand the property, users, lifestyle, business needs, budget and timeline. Collect floor plans, photos and reference images.",string
+processSteps.1.number,02,string
+processSteps.1.label,MEASURE,string
+processSteps.1.title,Site Analysis,string
+processSteps.1.shortTitle,Analyse,string
+processSteps.1.description,"Measure the space, identify technical limitations and study light, movement, storage and service points.",string
+processSteps.2.number,03,string
+processSteps.2.label,PLAN,string
+processSteps.2.title,Concept and Planning,string
+processSteps.2.shortTitle,Layout,string
+processSteps.2.description,"Develop layouts, mood direction, furniture zoning, material strategy and visual references.",string
+processSteps.3.number,04,string
+processSteps.3.label,SELECT,string
+processSteps.3.title,Material Selection,string
+processSteps.3.shortTitle,Materials,string
+processSteps.3.description,"Shortlist finishes, hardware, lighting, furniture and surface details according to budget and durability.",string
+processSteps.4.number,05,string
+processSteps.4.label,BUILD,string
+processSteps.4.title,Execution,string
+processSteps.4.shortTitle,Execute,string
+processSteps.4.description,"Coordinate site work, vendors, procurement, fabrication, installation and quality checks.",string
+processSteps.5.number,06,string
+processSteps.5.label,HANDOVER,string
+processSteps.5.title,Handover,string
+processSteps.5.shortTitle,Handover,string
+processSteps.5.description,"Review the finished space, document care guidance and close remaining practical details.",string
+projects.0.duration,To be verified with client,string
+projects.0.gallery.0,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
+projects.0.gallery.1,https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86,string
+projects.0.gallery.2,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.0.description,"A calm family home concept built around warm textures, concealed storage and natural light.",string
+projects.0.scope,"Living, bedrooms, kitchen and wardrobes",string
+projects.0.brief,"The family wanted a refined home that felt warm, uncluttered and easy to maintain. The layout needed better storage, improved circulation and a consistent material language.",string
+projects.0.challenge,The challenge was to create a premium mood without making the apartment feel heavy or over-designed. Every element had to support daily family use.,string
+projects.0.solution,"A restrained palette, layered textures, concealed storage and simple furniture lines create a calm home with enough flexibility for everyday life.",string
+projects.0.slug,sandstone-residence,string
+projects.0.name,Sandstone Residence,string
+projects.0.type,3BHK Residence,string
+projects.0.category,residential,string
+projects.0.tags.0,residential,string
+projects.0.tags.1,home,string
+projects.0.tags.2,3bhk,string
+projects.0.tags.3,turnkey,string
+projects.0.location,Gurgaon,string
+projects.0.image,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
+projects.0.alt,Sandstone Residence interior project,string
+projects.0.placeholder,true,boolean
+projects.1.duration,To be confirmed,string
+projects.1.gallery.0,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
+projects.1.gallery.1,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
+projects.1.gallery.2,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.1.gallery.3,https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86,string
+projects.1.description,"A focused workplace balancing collaborative energy with quiet, concentrated work.",string
+projects.1.scope,"Reception, workstations, meeting rooms and breakout areas",string
+projects.1.brief,"The team needed a flexible office that could support focused work, informal reviews and client meetings without losing a clear visual identity.",string
+projects.1.challenge,Acoustic privacy and generous circulation had to coexist within an efficient commercial floor plate.,string
+projects.1.solution,"Layered lighting, warm timber notes and carefully zoned shared spaces give the office clarity without making it feel rigid.",string
+projects.1.slug,cyber-city-workspace,string
+projects.1.name,Cyber City Workspace,string
+projects.1.type,Office Interior,string
+projects.1.category,commercial,string
+projects.1.tags.0,commercial,string
+projects.1.tags.1,office,string
+projects.1.tags.2,workspace,string
+projects.1.location,Gurgaon,string
+projects.1.image,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
+projects.1.alt,Cyber City Workspace interior project,string
+projects.1.placeholder,true,boolean
+projects.2.duration,To be confirmed,string
+projects.2.gallery.0,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
+projects.2.gallery.1,https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86,string
+projects.2.gallery.2,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.2.gallery.3,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
+projects.2.description,"A familiar family home renewed with lighter finishes, smarter storage and easier movement.",string
+projects.2.scope,"Living room, bedrooms, storage and finish upgrades",string
+projects.2.brief,"The owners wanted to retain the warmth of their long-lived home while updating its storage, lighting and everyday usability.",string
+projects.2.challenge,The renovation needed to respect existing elements and limit disruption while giving the rooms a coherent new character.,string
+projects.2.solution,"A lighter palette, integrated joinery and selective surface upgrades make the home feel calm, open and distinctly personal.",string
+projects.2.slug,pitampura-family-home,string
+projects.2.name,Pitampura Family Home,string
+projects.2.type,Renovation,string
+projects.2.category,residential,string
+projects.2.tags.0,residential,string
+projects.2.tags.1,renovation,string
+projects.2.tags.2,home,string
+projects.2.location,Delhi,string
+projects.2.image,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86,string
+projects.2.alt,Pitampura Family Home interior project,string
+projects.2.placeholder,true,boolean
+projects.3.duration,To be confirmed,string
+projects.3.gallery.0,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.3.gallery.1,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
+projects.3.gallery.2,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
+projects.3.gallery.3,https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86,string
+projects.3.description,A relaxed neighbourhood cafe shaped by tactile finishes and an easy indoor-outdoor mood.,string
+projects.3.scope,"Dining, service counter, lighting and customer experience",string
+projects.3.brief,The client wanted a memorable hospitality space that felt welcoming throughout the day and worked efficiently during peak service.,string
+projects.3.challenge,"Customer flow, table density and operational movement had to be resolved within a compact footprint.",string
+projects.3.solution,"Distinct seating zones, warm ambient light and robust natural textures create character while protecting service efficiency.",string
+projects.3.slug,courtyard-cafe,string
+projects.3.name,Courtyard Cafe,string
+projects.3.type,Hospitality,string
+projects.3.category,hospitality,string
+projects.3.tags.0,commercial,string
+projects.3.tags.1,hospitality,string
+projects.3.tags.2,restaurant,string
+projects.3.location,Delhi NCR,string
+projects.3.image,https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86,string
+projects.3.alt,Courtyard Cafe interior project,string
+projects.3.placeholder,true,boolean
+projects.4.duration,To be confirmed,string
+projects.4.gallery.0,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
+projects.4.gallery.1,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
+projects.4.gallery.2,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.4.gallery.3,https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86,string
+projects.4.description,"A composed retail setting designed to let products, materials and personal service take focus.",string
+projects.4.scope,"Display system, trial area, lighting and brand touchpoints",string
+projects.4.brief,The boutique needed a polished customer journey with flexible displays that could adapt to new collections.,string
+projects.4.challenge,Storage and sales functions had to remain discreet without reducing the sense of openness.,string
+projects.4.solution,"A modular display rhythm, concealed storage and precise accent lighting create an elegant, adaptable showroom.",string
+projects.4.slug,boutique-retail-studio,string
+projects.4.name,Boutique Retail Studio,string
+projects.4.type,Retail / Showroom,string
+projects.4.category,commercial,string
+projects.4.tags.0,commercial,string
+projects.4.tags.1,retail,string
+projects.4.tags.2,showroom,string
+projects.4.location,Delhi,string
+projects.4.image,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
+projects.4.alt,Boutique Retail Studio interior project,string
+projects.4.placeholder,true,boolean
+projects.5.duration,To be confirmed,string
+projects.5.gallery.0,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86,string
+projects.5.gallery.1,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
+projects.5.gallery.2,https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86,string
+projects.5.gallery.3,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.5.description,"A compact apartment made more generous through soft tones, built-in storage and clean sightlines.",string
+projects.5.scope,"Living, bedrooms, kitchen and space optimisation",string
+projects.5.brief,"The family asked for a bright, low-maintenance home with enough storage for daily life and a comfortable setting for guests.",string
+projects.5.challenge,Every room needed to work harder without feeling filled with furniture or heavy joinery.,string
+projects.5.solution,"Full-height storage, pale finishes and visually light furniture preserve openness while meeting practical needs.",string
+projects.5.slug,noida-apartment,string
+projects.5.name,Noida Apartment,string
+projects.5.type,Apartment Interior,string
+projects.5.category,residential,string
+projects.5.tags.0,residential,string
+projects.5.tags.1,apartment,string
+projects.5.tags.2,home,string
+projects.5.location,Noida,string
+projects.5.image,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
+projects.5.alt,Noida Apartment interior project,string
+projects.5.placeholder,true,boolean
+projects.6.duration,To be confirmed,string
+projects.6.gallery.0,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
+projects.6.gallery.1,https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86,string
+projects.6.gallery.2,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
+projects.6.gallery.3,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.6.description,"A reassuring healthcare arrival space with intuitive movement, privacy and a calm material palette.",string
+projects.6.scope,"Reception, waiting, consultation approach and lighting",string
+projects.6.brief,The clinic needed a professional first impression that reduced visual stress and made patient movement easy to understand.,string
+projects.6.challenge,"Privacy, accessibility and operational visibility required careful coordination in a limited front-of-house area.",string
+projects.6.solution,"Clear zoning, soft indirect light and durable finishes create an orderly environment that still feels warm and human.",string
+projects.6.slug,clinic-reception,string
+projects.6.name,Clinic Reception,string
+projects.6.type,Healthcare Interior,string
+projects.6.category,commercial,string
+projects.6.tags.0,commercial,string
+projects.6.tags.1,office,string
+projects.6.tags.2,clinic,string
+projects.6.location,Gurgaon,string
+projects.6.image,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
+projects.6.alt,Clinic Reception interior project,string
+projects.6.placeholder,true,boolean
+projects.7.duration,To be confirmed,string
+projects.7.gallery.0,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
+projects.7.gallery.1,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
+projects.7.gallery.2,https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86,string
+projects.7.gallery.3,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.7.description,A villa renovation that pairs generous proportions with restrained detail and natural warmth.,string
+projects.7.scope,"Living areas, bedrooms, lighting and material renewal",string
+projects.7.brief,The owners wanted to simplify an ornate interior and create a quieter backdrop for family life and collected objects.,string
+projects.7.challenge,The new language had to connect rooms of different scales while retaining useful existing construction.,string
+projects.7.solution,"Consistent flooring, warm neutrals and edited architectural details bring continuity and a more relaxed sense of luxury.",string
+projects.7.slug,warm-minimal-villa,string
+projects.7.name,Warm Minimal Villa,string
+projects.7.type,Villa Renovation,string
+projects.7.category,renovation,string
+projects.7.tags.0,residential,string
+projects.7.tags.1,renovation,string
+projects.7.tags.2,villa,string
+projects.7.location,Faridabad,string
+projects.7.image,https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86,string
+projects.7.alt,Warm Minimal Villa interior project,string
+projects.7.placeholder,true,boolean
+projects.8.duration,To be confirmed,string
+projects.8.gallery.0,https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86,string
+projects.8.gallery.1,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
+projects.8.gallery.2,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
+projects.8.gallery.3,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
+projects.8.description,"A small restaurant with strong atmosphere, efficient service flow and a distinctive evening identity.",string
+projects.8.scope,"Dining layout, counter, lighting and finish specification",string
+projects.8.brief,The concept called for an intimate dining room that could achieve good capacity without compromising guest comfort.,string
+projects.8.challenge,"Kitchen movement, table spacing and visual impact all competed for a narrow footprint.",string
+projects.8.solution,"A disciplined plan, layered wall treatments and focused pools of light make the room feel richer and more spacious.",string
+projects.8.slug,compact-restaurant,string
+projects.8.name,Compact Restaurant,string
+projects.8.type,Restaurant Interior,string
+projects.8.category,hospitality,string
+projects.8.tags.0,commercial,string
+projects.8.tags.1,hospitality,string
+projects.8.tags.2,restaurant,string
+projects.8.location,Delhi,string
+projects.8.image,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.8.alt,Compact Restaurant interior project,string
+projects.8.placeholder,true,boolean
+filters.0.label,All,string
+filters.0.value,all,string
+filters.1.label,Residential,string
+filters.1.value,residential,string
+filters.2.label,Commercial,string
+filters.2.value,commercial,string
+filters.3.label,Office,string
+filters.3.value,office,string
+filters.4.label,Renovation,string
+filters.4.value,renovation,string
+filters.5.label,Hospitality,string
+filters.5.value,hospitality,string
+layout.skipLabel,Skip to content,string
+layout.skipHref,#main,string
+layout.mainId,main,string
+layout.brandLabel,Design Essentials home,string
+layout.brandHref,/,string
+layout.brandText,DESIGN ESSENTIALS,string
+layout.menuLabel,Toggle menu,string
+layout.navigationLabel,Primary navigation,string
+layout.navigationId,primary-navigation,string
+layout.headerCta.label,Book Consultation,string
+layout.headerCta.href,/contact,string
+layout.footer.brand,Design Essentials,string
+layout.footer.titleLines.0,Spaces with purpose.,string
+layout.footer.titleLines.1,Details with meaning.,string
+layout.footer.studioLabel,Studio,string
+layout.footer.exploreLabel,Explore,string
+layout.footer.links.0.label,Showcase,string
+layout.footer.links.0.href,/showcase,string
+layout.footer.links.1.label,What we do,string
+layout.footer.links.1.href,/what-we-do,string
+layout.footer.links.2.label,Process,string
+layout.footer.links.2.href,/process,string
+layout.footer.links.3.label,Start a project,string
+layout.footer.links.3.href,/contact,string
+layout.footer.copyright,(c) 2026 Design Essentials,string
+layout.footer.services,Residential / Commercial / Turnkey,string
+pages.home.seo.path,/,string
+pages.home.rail.0,Interior architecture / Delhi NCR,string
+pages.home.rail.1,RESIDENTIAL / COMMERCIAL,string
+pages.home.eyebrow,Design Essentials / Interior Studio,string
+pages.home.title,"Spaces shaped by light, material and purpose.",string
+pages.home.intro,"Premium residential and commercial interiors across Delhi NCR, from planning and 3D concepts to complete execution and handover.",string
+pages.home.buttons.0.label,View Showcase,string
+pages.home.buttons.0.href,/showcase,string
+pages.home.buttons.1.label,Start a Project,string
+pages.home.buttons.1.href,/contact,string
+pages.home.buttons.1.variant,ghost,string
+pages.home.heroAlt,Elegant contemporary living room interior,string
+pages.home.statement.eyebrow,Studio statement,string
+pages.home.statement.alt,Warm living room with natural light,string
+pages.home.statement.text,"Design Essentials creates considered interiors for homes, offices and commercial spaces where beauty, usability and execution discipline work together.",string
+pages.home.paths.0.id,residential,string
+pages.home.paths.0.label,Residential,string
+pages.home.paths.0.title,Homes that work beautifully every day.,string
+pages.home.paths.0.text,"Layouts, storage, kitchens, wardrobes, lighting and finishes planned around Indian homes and family routines.",string
+pages.home.paths.0.linkLabel,Explore residential,string
+pages.home.paths.1.id,commercial,string
+pages.home.paths.1.label,Commercial,string
+pages.home.paths.1.title,Business spaces with clarity and presence.,string
+pages.home.paths.1.text,"Offices, retail, clinics and hospitality spaces designed for workflow, customer experience and brand identity.",string
+pages.home.paths.1.linkLabel,Explore commercial,string
+pages.home.services.title,What we design and deliver,string
+pages.home.services.text,"One coordinated journey across consultation, planning, material selection, execution and handover.",string
+pages.home.process.eyebrow,Method / 01-06,string
+pages.home.process.title,From first conversation to final handover.,string
+pages.home.process.text,"A transparent process helps clients see what is happening, what is next and who is accountable.",string
+pages.home.featured.eyebrow,Selected work,string
+pages.home.featured.title,Sandstone Residence,string
+pages.home.featured.text,"A warm family home shaped with muted textures, practical storage and calm transitions between daily living zones.",string
+pages.home.featured.alt,Featured contemporary residence in neutral tones,string
+pages.home.featured.button.label,Open Case Study,string
+pages.home.featured.button.href,/projects/sandstone-residence,string
+pages.home.stats.0.value,01,string
+pages.home.stats.0.label,Coordinated team,string
+pages.home.stats.1.value,06,string
+pages.home.stats.1.label,Project stages,string
+pages.home.stats.2.value,NCR,string
+pages.home.stats.2.label,Service region,string
+pages.home.stats.3.value,360,string
+pages.home.stats.3.label,Design to handover,string
+pages.home.cta.eyebrow,Start with clarity,string
+pages.home.cta.title,"Planning a new home, office or renovation?",string
+pages.home.cta.text,"Share your property details, project goals and expected timeline. The first conversation should make the next step clear.",string
+pages.home.cta.href,/contact,string
+pages.home.cta.label,Request Consultation,string
+pages.about.seo.title,About,string
+pages.about.seo.path,/about,string
+pages.about.seo.description,"About Design Essentials, a Delhi NCR interior design and execution studio.",string
+pages.about.hero.eyebrow,About Design Essentials,string
+pages.about.hero.title,"A design and execution studio for spaces that need to feel considered, not crowded.",string
+pages.about.hero.text,"Based in Pitampura, Delhi, Design Essentials works across Delhi NCR to create residential and commercial interiors with a balance of aesthetics, usability and site-level practicality.",string
+pages.about.story.eyebrow,Approach,string
+pages.about.story.title,Design is only successful when the finished space works in real life.,string
+pages.about.story.text,"Our role is to connect ideas with execution. That means understanding how the space will be used, planning the technical details early, selecting materials carefully and coordinating the site so the final result remains faithful to the approved concept.",string
+pages.about.story.alt,Architectural home exterior and interior composition,string
+pages.about.story.note,"Client-verified founder biography, awards, team size and project count should be added before production content is finalized.",string
+pages.about.values.0.number,01,string
+pages.about.values.0.title,Measured luxury,string
+pages.about.values.0.text,"Premium does not mean loud. We use proportion, material and detail to create restraint and comfort.",string
+pages.about.values.1.number,02,string
+pages.about.values.1.title,Practical planning,string
+pages.about.values.1.text,"Storage, lighting, ventilation, movement and maintenance are planned before the visual layer is finalised.",string
+pages.about.values.2.number,03,string
+pages.about.values.2.title,One accountable journey,string
+pages.about.values.2.text,"Design, sourcing, site coordination and handover remain connected through one organised process.",string
+pages.about.belief.eyebrow,Belief,string
+pages.about.belief.quote,"A space should look considered, but feel completely natural to use.",string
+pages.about.belief.text,"This is the principle behind every residential, commercial and renovation project.",string
+pages.about.belief.alt,Interior materials and architectural textures,string
+pages.about.belief.button.label,See our process,string
+pages.about.belief.button.href,/process,string
+pages.services.seo.title,What We Do,string
+pages.services.seo.path,/what-we-do,string
+pages.services.seo.description,"Residential, commercial, turnkey and renovation interior services across Delhi NCR.",string
+pages.services.hero.eyebrow,What we do,string
+pages.services.hero.title,"Interior design, planning and execution under one clear process.",string
+pages.services.hero.text,"From homes and offices to restaurants, clinics and renovation projects, services are structured to help customers choose the right starting point.",string
+pages.services.cta.eyebrow,Need help choosing?,string
+pages.services.cta.title,Tell us what space you are planning.,string
+pages.services.cta.text,"The right service depends on property type, budget, timeline and how much execution support you need.",string
+pages.services.cta.href,/contact,string
+pages.services.cta.label,Send Project Details,string
+pages.showcase.seo.title,Showcase,string
+pages.showcase.seo.path,/showcase,string
+pages.showcase.seo.description,"Interior design showcase with residential, commercial, office and renovation projects.",string
+pages.showcase.hero.eyebrow,Showcase,string
+pages.showcase.hero.title,"Selected interiors, organised by space type.",string
+pages.showcase.hero.text,"Review sample residential, commercial, office, renovation and hospitality work. Search and filters are handled directly in the Next.js interface.",string
+pages.showcase.filtersLabel,Project filters,string
+pages.showcase.searchLabel,Search projects,string
+pages.showcase.searchPlaceholder,"Search by location, style or service",string
+pages.showcase.resultSingular,result,string
+pages.showcase.resultPlural,results,string
+pages.showcase.sampleLabel,Sample content,string
+pages.showcase.empty.title,No matching projects,string
+pages.showcase.empty.text,Try a broader search term or choose a different category.,string
+pages.showcase.cta.eyebrow,Like a project?,string
+pages.showcase.cta.title,Bring reference images and your floor plan to the consultation.,string
+pages.showcase.cta.text,"This helps the team understand your preferred style, budget direction and practical requirements.",string
+pages.showcase.cta.href,/contact,string
+pages.showcase.cta.label,Plan a similar space,string
+pages.process.seo.title,Process,string
+pages.process.seo.path,/process,string
+pages.process.seo.description,Interior design and execution process from consultation to handover.,string
+pages.process.hero.eyebrow,Process,string
+pages.process.hero.title,A clear route from concept to handover.,string
+pages.process.hero.text,Interior projects need structure. This page explains how the client journey stays clear from the first meeting to the final review.,string
+pages.process.feature.eyebrow,Why process matters,string
+pages.process.feature.title,Good execution protects good design.,string
+pages.process.feature.text,"Planning, sourcing and supervision should not be disconnected from the creative idea. The final website makes this strength visible.",string
+pages.process.feature.alt,Interior material detail,string
+pages.contact.seo.title,Contact,string
+pages.contact.seo.path,/contact,string
+pages.contact.seo.description,Start a residential or commercial interior design project with Design Essentials.,string
+pages.contact.hero.eyebrow,Start a project,string
+pages.contact.hero.title,"Share the space, timeline and budget direction.",string
+pages.contact.hero.text,This form qualifies residential and commercial enquiries before the first call.,string
+pages.contact.imageAlt,Interior consultation table,string
+pages.contact.detailLabels.phone,Phone,string
+pages.contact.detailLabels.email,Email,string
+pages.contact.detailLabels.studio,Studio,string
+pages.contact.detailLabels.areas,Service areas,string
+pages.contact.initial.name,,string
+pages.contact.initial.phone,,string
+pages.contact.initial.email,,string
+pages.contact.initial.location,,string
+pages.contact.initial.projectType,Residential,string
+pages.contact.initial.area,,string
+pages.contact.initial.budget,To be discussed,string
+pages.contact.initial.timeline,,string
+pages.contact.initial.message,,string
+pages.contact.status.loading,Sending enquiry...,string
+pages.contact.status.fallbackError,Please review the form and try again.,string
+pages.contact.status.success,Thanks. Your enquiry passed validation and is ready for email integration.,string
+pages.contact.status.networkError,The enquiry could not be submitted. Please try again.,string
+pages.contact.status.sending,Sending...,string
+pages.contact.status.submit,Send Enquiry,string
+pages.contact.fields.0.name,name,string
+pages.contact.fields.0.label,Full name,string
+pages.contact.fields.0.type,text,string
+pages.contact.fields.0.required,true,boolean
+pages.contact.fields.1.name,phone,string
+pages.contact.fields.1.label,Phone,string
+pages.contact.fields.1.type,tel,string
+pages.contact.fields.1.required,true,boolean
+pages.contact.fields.2.name,email,string
+pages.contact.fields.2.label,Email,string
+pages.contact.fields.2.type,email,string
+pages.contact.fields.3.name,location,string
+pages.contact.fields.3.label,Project location,string
+pages.contact.fields.3.type,text,string
+pages.contact.fields.3.placeholder,Delhi / Gurgaon / Noida,string
+pages.contact.fields.4.name,projectType,string
+pages.contact.fields.4.label,Project type,string
+pages.contact.fields.4.type,select,string
+pages.contact.fields.4.options.0,Residential,string
+pages.contact.fields.4.options.1,Commercial,string
+pages.contact.fields.4.options.2,Renovation,string
+pages.contact.fields.4.options.3,Office,string
+pages.contact.fields.4.options.4,Retail / Hospitality,string
+pages.contact.fields.5.name,area,string
+pages.contact.fields.5.label,Approx. area,string
+pages.contact.fields.5.type,text,string
+pages.contact.fields.5.placeholder,e.g. 1800 sq ft,string
+pages.contact.fields.6.name,budget,string
+pages.contact.fields.6.label,Budget range,string
+pages.contact.fields.6.type,select,string
+pages.contact.fields.6.options.0,To be discussed,string
+pages.contact.fields.6.options.1,Rs 2L-Rs 5L,string
+pages.contact.fields.6.options.2,Rs 5L-Rs 10L,string
+pages.contact.fields.6.options.3,Rs 10L-Rs 25L,string
+pages.contact.fields.6.options.4,Rs 25L+,string
+pages.contact.fields.7.name,timeline,string
+pages.contact.fields.7.label,Expected start,string
+pages.contact.fields.7.type,text,string
+pages.contact.fields.7.placeholder,Immediately / 1 month / 3 months,string
+pages.contact.fields.8.name,message,string
+pages.contact.fields.8.label,Project brief,string
+pages.contact.fields.8.type,textarea,string
+pages.contact.fields.8.placeholder,"Tell us about the space, requirements and preferred style.",string
+pages.contact.fields.8.full,true,boolean
+pages.contact.upload.label,File uploads,string
+pages.contact.upload.text,File upload support can be connected with the final form service or CRM.,string
+pages.project.sampleLabel,Sample content,string
+pages.project.factsEyebrow,Project facts,string
+pages.project.factLabels.location,Location,string
+pages.project.factLabels.category,Category,string
+pages.project.factLabels.scope,Scope,string
+pages.project.factLabels.duration,Duration,string
+pages.project.briefTitle,Client brief,string
+pages.project.challengeTitle,Design challenge,string
+pages.project.solutionTitle,Solution,string
+pages.project.galleryLabel,gallery,string
+pages.project.galleryAlt,interior view,string
+pages.project.cta.eyebrow,Inspired by this project?,string
+pages.project.cta.title,Discuss a similar interior.,string
+pages.project.cta.text,"Bring your floor plan, rough budget and preferred references to the first consultation.",string
+pages.project.cta.href,/contact,string
+pages.project.cta.label,Start Consultation,string
+api.contact.endpoint,/api/contact,string
+api.contact.allowedMethod,POST,string
+api.contact.errors.method,Method not allowed,string
+api.contact.errors.requiredPrefix,Missing required field,string
+api.contact.errors.requiredPlural,s,string
+api.contact.errors.email,Please provide a valid email address.,string
+api.contact.defaults.projectType,Residential,string
+api.contact.defaults.budget,To be discussed,string
+api.contact.success,Enquiry validated. Email/CRM delivery can be connected here.,string
