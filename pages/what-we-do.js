@@ -1,21 +1,20 @@
 import SiteLayout from '../components/site/SiteLayout'
 import { CtaPanel, ImageFrame, PageHero } from '../components/sections/Shared'
-import { services } from '../data/site'
+import { pages, services } from '../data/site'
 import { Seo, serviceSchema } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
 export default function WhatWeDo() {
+  const content = pages.services
   return (
     <SiteLayout>
       <Seo
-        title="What We Do"
-        path="/what-we-do"
-        description="Residential, commercial, turnkey and renovation interior services across Delhi NCR."
+        {...content.seo}
         image={services[0].image}
         jsonLd={serviceSchema(services)}
       />
-      <PageHero eyebrow="What we do" title="Interior design, planning and execution under one clear process.">
-        From homes and offices to restaurants, clinics and renovation projects, services are structured to help customers choose the right starting point.
+      <PageHero eyebrow={content.hero.eyebrow} title={content.hero.title}>
+        {content.hero.text}
       </PageHero>
       <section className={styles.serviceStack}>
         {services.map((service, index) => (
@@ -39,11 +38,7 @@ export default function WhatWeDo() {
         ))}
       </section>
       <CtaPanel
-        eyebrow="Need help choosing?"
-        title="Tell us what space you are planning."
-        text="The right service depends on property type, budget, timeline and how much execution support you need."
-        href="/contact"
-        label="Send Project Details"
+        {...content.cta}
       />
     </SiteLayout>
   )

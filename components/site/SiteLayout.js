@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import { navItems, siteConfig } from '../../data/site'
+import { layout, navItems, siteConfig } from '../../data/site'
 import styles from './SiteLayout.module.css'
 
 function isActive(pathname, href) {
@@ -22,10 +22,10 @@ export function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.headerInner}>
-        <Link className={styles.brand} href="/" aria-label="Design Essentials home">
-          <img src="/assets/logo4.webp" alt="Design Essentials logo" />
+        <Link className={styles.brand} href={layout.brandHref} aria-label={layout.brandLabel}>
+          <img src={siteConfig.logo.src} alt={siteConfig.logo.alt} />
           <span className={styles.brandText}>
-            DESIGN ESSENTIALS
+            {layout.brandText}
             <small>{siteConfig.studioLine}</small>
           </span>
         </Link>
@@ -33,16 +33,16 @@ export function Header() {
           className={`${styles.menuButton} ${isOpen ? styles.menuButtonOpen : ''}`}
           type="button"
           aria-expanded={isOpen}
-          aria-controls="primary-navigation"
-          aria-label="Toggle menu"
+          aria-controls={layout.navigationId}
+          aria-label={layout.menuLabel}
           onClick={() => setIsOpen((value) => !value)}
         >
           <span />
         </button>
         <nav
-          id="primary-navigation"
+          id={layout.navigationId}
           className={`${styles.nav} ${isOpen ? styles.navOpen : ''}`}
-          aria-label="Primary navigation"
+          aria-label={layout.navigationLabel}
         >
           {navItems.map((item) => (
             <Link
@@ -53,8 +53,8 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <Link className={styles.navCta} href="/contact">
-            Book Consultation
+          <Link className={styles.navCta} href={layout.headerCta.href}>
+            {layout.headerCta.label}
           </Link>
         </nav>
       </div>
@@ -63,20 +63,19 @@ export function Header() {
 }
 
 export function Footer() {
+  const footer = layout.footer
   return (
     <footer className={styles.footer}>
       <div className={styles.footerGrid}>
         <div>
-          <div className="eyebrow">Design Essentials</div>
+          <div className="eyebrow">{footer.brand}</div>
           <h2>
-            Spaces with purpose.
-            <br />
-            Details with meaning.
+            {footer.titleLines.map((line, index) => <span key={line}>{line}{index < footer.titleLines.length - 1 ? <br /> : null}</span>)}
           </h2>
           <p className={styles.footerNote}>{siteConfig.description}</p>
         </div>
         <div>
-          <div className="eyebrow">Studio</div>
+          <div className="eyebrow">{footer.studioLabel}</div>
           <p>{siteConfig.shortAddress}</p>
           <p>
             <a href={siteConfig.phoneHref}>{siteConfig.phone}</a>
@@ -85,21 +84,15 @@ export function Footer() {
           </p>
         </div>
         <div>
-          <div className="eyebrow">Explore</div>
+          <div className="eyebrow">{footer.exploreLabel}</div>
           <p>
-            <Link href="/showcase">Showcase</Link>
-            <br />
-            <Link href="/what-we-do">What we do</Link>
-            <br />
-            <Link href="/process">Process</Link>
-            <br />
-            <Link href="/contact">Start a project</Link>
+            {footer.links.map((link, index) => <span key={link.href}><Link href={link.href}>{link.label}</Link>{index < footer.links.length - 1 ? <br /> : null}</span>)}
           </p>
         </div>
       </div>
       <div className={styles.footerBottom}>
-        <span>(c) 2026 Design Essentials</span>
-        <span>Residential / Commercial / Turnkey</span>
+        <span>{footer.copyright}</span>
+        <span>{footer.services}</span>
       </div>
     </footer>
   )
@@ -108,11 +101,11 @@ export function Footer() {
 export default function SiteLayout({ children }) {
   return (
     <>
-      <a className="skip-link" href="#main">
-        Skip to content
+      <a className="skip-link" href={layout.skipHref}>
+        {layout.skipLabel}
       </a>
       <Header />
-      <main id="main">{children}</main>
+      <main id={layout.mainId}>{children}</main>
       <Footer />
     </>
   )

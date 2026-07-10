@@ -1,20 +1,19 @@
 import SiteLayout from '../components/site/SiteLayout'
 import { ImageFrame, PageHero } from '../components/sections/Shared'
-import { imageLibrary, processSteps } from '../data/site'
+import { imageLibrary, pages, processSteps } from '../data/site'
 import { Seo } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
 export default function Process() {
+  const content = pages.process
   return (
     <SiteLayout>
       <Seo
-        title="Process"
-        path="/process"
-        description="Interior design and execution process from consultation to handover."
+        {...content.seo}
         image={imageLibrary.material}
       />
-      <PageHero eyebrow="Process" title="A clear route from concept to handover.">
-        Interior projects need structure. This page explains how the client journey stays clear from the first meeting to the final review.
+      <PageHero eyebrow={content.hero.eyebrow} title={content.hero.title}>
+        {content.hero.text}
       </PageHero>
       <section className={styles.processDeep}>
         {processSteps.map((step) => (
@@ -26,16 +25,13 @@ export default function Process() {
         ))}
       </section>
       <section className={styles.galleryFeature}>
-        <ImageFrame className={styles.galleryImage} src={imageLibrary.material} alt="Interior material detail" />
+        <ImageFrame className={styles.galleryImage} src={imageLibrary.material} alt={content.feature.alt} />
         <div className={styles.galleryCopy}>
           <div>
-            <div className="eyebrow">Why process matters</div>
-            <h2>Good execution protects good design.</h2>
+            <div className="eyebrow">{content.feature.eyebrow}</div>
+            <h2>{content.feature.title}</h2>
           </div>
-          <p>
-            Planning, sourcing and supervision should not be disconnected from the creative idea.
-            The final website makes this strength visible.
-          </p>
+          <p>{content.feature.text}</p>
         </div>
       </section>
     </SiteLayout>

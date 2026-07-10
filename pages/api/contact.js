@@ -1,4 +1,7 @@
+import { api } from '../../data/site'
+
 const requiredFields = ['name', 'phone']
+const content = api.contact
 
 function isBlank(value) {
   return typeof value !== 'string' || value.trim().length === 0
@@ -16,9 +19,9 @@ function clean(value) {
 }
 
 export default function handler(req, res) {
-  if (req.method !== 'POST') {
-    res.setHeader('Allow', 'POST')
-    return res.status(405).json({ ok: false, error: 'Method not allowed' })
+  if (req.method !== content.allowedMethod) {
+    res.setHeader('Allow', content.allowedMethod)
+    return res.status(405).json({ ok: false, error: content.errors.method })
   }
 
   const body = req.body || {}
@@ -27,12 +30,12 @@ export default function handler(req, res) {
   if (missing.length > 0) {
     return res.status(400).json({
       ok: false,
-      error: `Missing required field${missing.length > 1 ? 's' : ''}: ${missing.join(', ')}`,
+      error: `${content.errors.requiredPrefix}${missing.length > 1 ? content.errors.requiredPlural : ''}: ${missing.join(', ')}`,
     })
   }
 
   if (!isValidEmail(body.email)) {
-    return res.status(400).json({ ok: false, error: 'Please provide a valid email address.' })
+    return res.status(400).json({ ok: false, error: content.errors.email })
   }
 
   const enquiry = {
@@ -40,9 +43,9 @@ export default function handler(req, res) {
     phone: clean(body.phone),
     email: clean(body.email),
     location: clean(body.location),
-    projectType: clean(body.projectType) || 'Residential',
+    projectType: clean(body.projectType) || content.defaults.projectType,
     area: clean(body.area),
-    budget: clean(body.budget) || 'To be discussed',
+    budget: clean(body.budget) || content.defaults.budget,
     timeline: clean(body.timeline),
     message: clean(body.message),
     receivedAt: new Date().toISOString(),
@@ -50,7 +53,7 @@ export default function handler(req, res) {
 
   return res.status(200).json({
     ok: true,
-    message: 'Enquiry validated. Email/CRM delivery can be connected here.',
+    message: content.success,
     enquiry,
   })
 }

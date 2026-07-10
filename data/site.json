@@ -1,0 +1,853 @@
+{
+  "siteConfig": {
+    "name": "Design Essentials",
+    "studioLine": "INTERIORS / DELHI NCR",
+    "tagline": "Spaces with purpose. Details with meaning.",
+    "description": "Premium residential and commercial interior design, planning and turnkey execution across Delhi NCR.",
+    "baseUrl": "https://design-essentials-p3.vercel.app",
+    "phone": "+91 98110 06842",
+    "phoneHref": "tel:+919811006842",
+    "email": "info@designessentials.co.in",
+    "emailHref": "mailto:info@designessentials.co.in",
+    "address": "GD-87, GD Block, Dakshini Pitampura, Pitampura, Delhi 110034",
+    "shortAddress": "GD-87, GD Block, Dakshini Pitampura, Delhi 110034",
+    "serviceAreas": [
+      "Delhi",
+      "Gurgaon",
+      "Noida",
+      "Greater Noida",
+      "Faridabad",
+      "Ghaziabad"
+    ],
+    "logo": {
+      "src": "/assets/logo4.webp",
+      "alt": "Design Essentials logo"
+    },
+    "defaultSeoTitle": "Interior Design and Turnkey Execution",
+    "schema": {
+      "streetAddress": "GD-87, GD Block, Dakshini Pitampura, Pitampura",
+      "addressLocality": "Delhi",
+      "postalCode": "110034",
+      "addressCountry": "IN"
+    }
+  },
+  "navItems": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "What We Do",
+      "href": "/what-we-do"
+    },
+    {
+      "label": "Showcase",
+      "href": "/showcase"
+    },
+    {
+      "label": "Process",
+      "href": "/process"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "imageLibrary": {
+    "hero": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=86",
+    "intro": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86",
+    "residential": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
+    "commercial": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
+    "turnkey": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
+    "renovation": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=86",
+    "residence": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86",
+    "exterior": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86",
+    "material": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
+    "consultation": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86",
+    "bedroom": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
+    "villa": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86",
+    "cafe": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86",
+    "retail": "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86"
+  },
+  "services": [
+    {
+      "id": "residential",
+      "number": "01",
+      "title": "Residential Interior Design",
+      "shortTitle": "Residential interiors",
+      "description": "Complete home interiors, modular kitchens, wardrobes, living rooms, bedrooms and renovation planning for apartments, villas and builder floors.",
+      "summary": "Complete homes, kitchens, wardrobes and rooms.",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Residential interior design",
+      "points": [
+        "Space planning and furniture layout",
+        "Kitchen, wardrobe and storage design",
+        "Lighting, finishes and material guidance",
+        "Turnkey home execution"
+      ]
+    },
+    {
+      "id": "commercial",
+      "number": "02",
+      "title": "Commercial Interior Design",
+      "shortTitle": "Commercial interiors",
+      "description": "Office, retail, clinic, hospitality and showroom interiors designed around workflow, customer experience, brand presence and business continuity.",
+      "summary": "Offices, retail, clinics, restaurants and showrooms.",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Commercial office interior design",
+      "points": [
+        "Office and workspace planning",
+        "Reception, meeting and customer zones",
+        "Retail and hospitality experience design",
+        "Execution planning to reduce disruption"
+      ]
+    },
+    {
+      "id": "turnkey",
+      "number": "03",
+      "title": "Turnkey Interior Execution",
+      "shortTitle": "Turnkey execution",
+      "description": "For clients who want one accountable team to manage design, sourcing, contractors, installation and final handover.",
+      "summary": "Civil, furniture, electrical, procurement and site coordination.",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Turnkey interior execution",
+      "points": [
+        "Civil, electrical, plumbing and false ceiling coordination",
+        "Furniture and modular fabrication",
+        "Vendor and material management",
+        "Quality checks and progress updates"
+      ]
+    },
+    {
+      "id": "renovation",
+      "number": "04",
+      "title": "Renovation and Space Improvement",
+      "shortTitle": "Renovation",
+      "description": "Existing spaces reworked with a focus on better layout, updated finishes, improved lighting and practical upgrades.",
+      "summary": "Existing spaces reworked with minimal disruption.",
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Interior renovation",
+      "points": [
+        "Space optimisation",
+        "Wall, flooring and ceiling upgrades",
+        "Electrical and plumbing updates",
+        "Furniture and styling refresh"
+      ]
+    }
+  ],
+  "processSteps": [
+    {
+      "number": "01",
+      "label": "DISCOVER",
+      "title": "Consultation",
+      "shortTitle": "Consult",
+      "description": "Understand the property, users, lifestyle, business needs, budget and timeline. Collect floor plans, photos and reference images."
+    },
+    {
+      "number": "02",
+      "label": "MEASURE",
+      "title": "Site Analysis",
+      "shortTitle": "Analyse",
+      "description": "Measure the space, identify technical limitations and study light, movement, storage and service points."
+    },
+    {
+      "number": "03",
+      "label": "PLAN",
+      "title": "Concept and Planning",
+      "shortTitle": "Layout",
+      "description": "Develop layouts, mood direction, furniture zoning, material strategy and visual references."
+    },
+    {
+      "number": "04",
+      "label": "SELECT",
+      "title": "Material Selection",
+      "shortTitle": "Materials",
+      "description": "Shortlist finishes, hardware, lighting, furniture and surface details according to budget and durability."
+    },
+    {
+      "number": "05",
+      "label": "BUILD",
+      "title": "Execution",
+      "shortTitle": "Execute",
+      "description": "Coordinate site work, vendors, procurement, fabrication, installation and quality checks."
+    },
+    {
+      "number": "06",
+      "label": "HANDOVER",
+      "title": "Handover",
+      "shortTitle": "Handover",
+      "description": "Review the finished space, document care guidance and close remaining practical details."
+    }
+  ],
+  "projects": [
+    {
+      "duration": "To be verified with client",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86"
+      ],
+      "description": "A calm family home concept built around warm textures, concealed storage and natural light.",
+      "scope": "Living, bedrooms, kitchen and wardrobes",
+      "brief": "The family wanted a refined home that felt warm, uncluttered and easy to maintain. The layout needed better storage, improved circulation and a consistent material language.",
+      "challenge": "The challenge was to create a premium mood without making the apartment feel heavy or over-designed. Every element had to support daily family use.",
+      "solution": "A restrained palette, layered textures, concealed storage and simple furniture lines create a calm home with enough flexibility for everyday life.",
+      "slug": "sandstone-residence",
+      "name": "Sandstone Residence",
+      "type": "3BHK Residence",
+      "category": "residential",
+      "tags": [
+        "residential",
+        "home",
+        "3bhk",
+        "turnkey"
+      ],
+      "location": "Gurgaon",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86",
+      "alt": "Sandstone Residence interior project",
+      "placeholder": true
+    },
+    {
+      "duration": "To be confirmed",
+      "gallery": [
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86"
+      ],
+      "description": "A focused workplace balancing collaborative energy with quiet, concentrated work.",
+      "scope": "Reception, workstations, meeting rooms and breakout areas",
+      "brief": "The team needed a flexible office that could support focused work, informal reviews and client meetings without losing a clear visual identity.",
+      "challenge": "Acoustic privacy and generous circulation had to coexist within an efficient commercial floor plate.",
+      "solution": "Layered lighting, warm timber notes and carefully zoned shared spaces give the office clarity without making it feel rigid.",
+      "slug": "cyber-city-workspace",
+      "name": "Cyber City Workspace",
+      "type": "Office Interior",
+      "category": "commercial",
+      "tags": [
+        "commercial",
+        "office",
+        "workspace"
+      ],
+      "location": "Gurgaon",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Cyber City Workspace interior project",
+      "placeholder": true
+    },
+    {
+      "duration": "To be confirmed",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86"
+      ],
+      "description": "A familiar family home renewed with lighter finishes, smarter storage and easier movement.",
+      "scope": "Living room, bedrooms, storage and finish upgrades",
+      "brief": "The owners wanted to retain the warmth of their long-lived home while updating its storage, lighting and everyday usability.",
+      "challenge": "The renovation needed to respect existing elements and limit disruption while giving the rooms a coherent new character.",
+      "solution": "A lighter palette, integrated joinery and selective surface upgrades make the home feel calm, open and distinctly personal.",
+      "slug": "pitampura-family-home",
+      "name": "Pitampura Family Home",
+      "type": "Renovation",
+      "category": "residential",
+      "tags": [
+        "residential",
+        "renovation",
+        "home"
+      ],
+      "location": "Delhi",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Pitampura Family Home interior project",
+      "placeholder": true
+    },
+    {
+      "duration": "To be confirmed",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86"
+      ],
+      "description": "A relaxed neighbourhood cafe shaped by tactile finishes and an easy indoor-outdoor mood.",
+      "scope": "Dining, service counter, lighting and customer experience",
+      "brief": "The client wanted a memorable hospitality space that felt welcoming throughout the day and worked efficiently during peak service.",
+      "challenge": "Customer flow, table density and operational movement had to be resolved within a compact footprint.",
+      "solution": "Distinct seating zones, warm ambient light and robust natural textures create character while protecting service efficiency.",
+      "slug": "courtyard-cafe",
+      "name": "Courtyard Cafe",
+      "type": "Hospitality",
+      "category": "hospitality",
+      "tags": [
+        "commercial",
+        "hospitality",
+        "restaurant"
+      ],
+      "location": "Delhi NCR",
+      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Courtyard Cafe interior project",
+      "placeholder": true
+    },
+    {
+      "duration": "To be confirmed",
+      "gallery": [
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86"
+      ],
+      "description": "A composed retail setting designed to let products, materials and personal service take focus.",
+      "scope": "Display system, trial area, lighting and brand touchpoints",
+      "brief": "The boutique needed a polished customer journey with flexible displays that could adapt to new collections.",
+      "challenge": "Storage and sales functions had to remain discreet without reducing the sense of openness.",
+      "solution": "A modular display rhythm, concealed storage and precise accent lighting create an elegant, adaptable showroom.",
+      "slug": "boutique-retail-studio",
+      "name": "Boutique Retail Studio",
+      "type": "Retail / Showroom",
+      "category": "commercial",
+      "tags": [
+        "commercial",
+        "retail",
+        "showroom"
+      ],
+      "location": "Delhi",
+      "image": "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Boutique Retail Studio interior project",
+      "placeholder": true
+    },
+    {
+      "duration": "To be confirmed",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86"
+      ],
+      "description": "A compact apartment made more generous through soft tones, built-in storage and clean sightlines.",
+      "scope": "Living, bedrooms, kitchen and space optimisation",
+      "brief": "The family asked for a bright, low-maintenance home with enough storage for daily life and a comfortable setting for guests.",
+      "challenge": "Every room needed to work harder without feeling filled with furniture or heavy joinery.",
+      "solution": "Full-height storage, pale finishes and visually light furniture preserve openness while meeting practical needs.",
+      "slug": "noida-apartment",
+      "name": "Noida Apartment",
+      "type": "Apartment Interior",
+      "category": "residential",
+      "tags": [
+        "residential",
+        "apartment",
+        "home"
+      ],
+      "location": "Noida",
+      "image": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Noida Apartment interior project",
+      "placeholder": true
+    },
+    {
+      "duration": "To be confirmed",
+      "gallery": [
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86"
+      ],
+      "description": "A reassuring healthcare arrival space with intuitive movement, privacy and a calm material palette.",
+      "scope": "Reception, waiting, consultation approach and lighting",
+      "brief": "The clinic needed a professional first impression that reduced visual stress and made patient movement easy to understand.",
+      "challenge": "Privacy, accessibility and operational visibility required careful coordination in a limited front-of-house area.",
+      "solution": "Clear zoning, soft indirect light and durable finishes create an orderly environment that still feels warm and human.",
+      "slug": "clinic-reception",
+      "name": "Clinic Reception",
+      "type": "Healthcare Interior",
+      "category": "commercial",
+      "tags": [
+        "commercial",
+        "office",
+        "clinic"
+      ],
+      "location": "Gurgaon",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Clinic Reception interior project",
+      "placeholder": true
+    },
+    {
+      "duration": "To be confirmed",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86",
+        "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86"
+      ],
+      "description": "A villa renovation that pairs generous proportions with restrained detail and natural warmth.",
+      "scope": "Living areas, bedrooms, lighting and material renewal",
+      "brief": "The owners wanted to simplify an ornate interior and create a quieter backdrop for family life and collected objects.",
+      "challenge": "The new language had to connect rooms of different scales while retaining useful existing construction.",
+      "solution": "Consistent flooring, warm neutrals and edited architectural details bring continuity and a more relaxed sense of luxury.",
+      "slug": "warm-minimal-villa",
+      "name": "Warm Minimal Villa",
+      "type": "Villa Renovation",
+      "category": "renovation",
+      "tags": [
+        "residential",
+        "renovation",
+        "villa"
+      ],
+      "location": "Faridabad",
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Warm Minimal Villa interior project",
+      "placeholder": true
+    },
+    {
+      "duration": "To be confirmed",
+      "gallery": [
+        "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86"
+      ],
+      "description": "A small restaurant with strong atmosphere, efficient service flow and a distinctive evening identity.",
+      "scope": "Dining layout, counter, lighting and finish specification",
+      "brief": "The concept called for an intimate dining room that could achieve good capacity without compromising guest comfort.",
+      "challenge": "Kitchen movement, table spacing and visual impact all competed for a narrow footprint.",
+      "solution": "A disciplined plan, layered wall treatments and focused pools of light make the room feel richer and more spacious.",
+      "slug": "compact-restaurant",
+      "name": "Compact Restaurant",
+      "type": "Restaurant Interior",
+      "category": "hospitality",
+      "tags": [
+        "commercial",
+        "hospitality",
+        "restaurant"
+      ],
+      "location": "Delhi",
+      "image": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
+      "alt": "Compact Restaurant interior project",
+      "placeholder": true
+    }
+  ],
+  "filters": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Residential",
+      "value": "residential"
+    },
+    {
+      "label": "Commercial",
+      "value": "commercial"
+    },
+    {
+      "label": "Office",
+      "value": "office"
+    },
+    {
+      "label": "Renovation",
+      "value": "renovation"
+    },
+    {
+      "label": "Hospitality",
+      "value": "hospitality"
+    }
+  ],
+  "layout": {
+    "skipLabel": "Skip to content",
+    "skipHref": "#main",
+    "mainId": "main",
+    "brandLabel": "Design Essentials home",
+    "brandHref": "/",
+    "brandText": "DESIGN ESSENTIALS",
+    "menuLabel": "Toggle menu",
+    "navigationLabel": "Primary navigation",
+    "navigationId": "primary-navigation",
+    "headerCta": {
+      "label": "Book Consultation",
+      "href": "/contact"
+    },
+    "footer": {
+      "brand": "Design Essentials",
+      "titleLines": [
+        "Spaces with purpose.",
+        "Details with meaning."
+      ],
+      "studioLabel": "Studio",
+      "exploreLabel": "Explore",
+      "links": [
+        {
+          "label": "Showcase",
+          "href": "/showcase"
+        },
+        {
+          "label": "What we do",
+          "href": "/what-we-do"
+        },
+        {
+          "label": "Process",
+          "href": "/process"
+        },
+        {
+          "label": "Start a project",
+          "href": "/contact"
+        }
+      ],
+      "copyright": "(c) 2026 Design Essentials",
+      "services": "Residential / Commercial / Turnkey"
+    }
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "path": "/"
+      },
+      "rail": [
+        "Interior architecture / Delhi NCR",
+        "RESIDENTIAL / COMMERCIAL"
+      ],
+      "eyebrow": "Design Essentials / Interior Studio",
+      "title": "Spaces shaped by light, material and purpose.",
+      "intro": "Premium residential and commercial interiors across Delhi NCR, from planning and 3D concepts to complete execution and handover.",
+      "buttons": [
+        {
+          "label": "View Showcase",
+          "href": "/showcase"
+        },
+        {
+          "label": "Start a Project",
+          "href": "/contact",
+          "variant": "ghost"
+        }
+      ],
+      "heroAlt": "Elegant contemporary living room interior",
+      "statement": {
+        "eyebrow": "Studio statement",
+        "alt": "Warm living room with natural light",
+        "text": "Design Essentials creates considered interiors for homes, offices and commercial spaces where beauty, usability and execution discipline work together."
+      },
+      "paths": [
+        {
+          "id": "residential",
+          "label": "Residential",
+          "title": "Homes that work beautifully every day.",
+          "text": "Layouts, storage, kitchens, wardrobes, lighting and finishes planned around Indian homes and family routines.",
+          "linkLabel": "Explore residential"
+        },
+        {
+          "id": "commercial",
+          "label": "Commercial",
+          "title": "Business spaces with clarity and presence.",
+          "text": "Offices, retail, clinics and hospitality spaces designed for workflow, customer experience and brand identity.",
+          "linkLabel": "Explore commercial"
+        }
+      ],
+      "services": {
+        "title": "What we design and deliver",
+        "text": "One coordinated journey across consultation, planning, material selection, execution and handover."
+      },
+      "process": {
+        "eyebrow": "Method / 01-06",
+        "title": "From first conversation to final handover.",
+        "text": "A transparent process helps clients see what is happening, what is next and who is accountable."
+      },
+      "featured": {
+        "eyebrow": "Selected work",
+        "title": "Sandstone Residence",
+        "text": "A warm family home shaped with muted textures, practical storage and calm transitions between daily living zones.",
+        "alt": "Featured contemporary residence in neutral tones",
+        "button": {
+          "label": "Open Case Study",
+          "href": "/projects/sandstone-residence"
+        }
+      },
+      "stats": [
+        {
+          "value": "01",
+          "label": "Coordinated team"
+        },
+        {
+          "value": "06",
+          "label": "Project stages"
+        },
+        {
+          "value": "NCR",
+          "label": "Service region"
+        },
+        {
+          "value": "360",
+          "label": "Design to handover"
+        }
+      ],
+      "cta": {
+        "eyebrow": "Start with clarity",
+        "title": "Planning a new home, office or renovation?",
+        "text": "Share your property details, project goals and expected timeline. The first conversation should make the next step clear.",
+        "href": "/contact",
+        "label": "Request Consultation"
+      }
+    },
+    "about": {
+      "seo": {
+        "title": "About",
+        "path": "/about",
+        "description": "About Design Essentials, a Delhi NCR interior design and execution studio."
+      },
+      "hero": {
+        "eyebrow": "About Design Essentials",
+        "title": "A design and execution studio for spaces that need to feel considered, not crowded.",
+        "text": "Based in Pitampura, Delhi, Design Essentials works across Delhi NCR to create residential and commercial interiors with a balance of aesthetics, usability and site-level practicality."
+      },
+      "story": {
+        "eyebrow": "Approach",
+        "title": "Design is only successful when the finished space works in real life.",
+        "text": "Our role is to connect ideas with execution. That means understanding how the space will be used, planning the technical details early, selecting materials carefully and coordinating the site so the final result remains faithful to the approved concept.",
+        "alt": "Architectural home exterior and interior composition",
+        "note": "Client-verified founder biography, awards, team size and project count should be added before production content is finalized."
+      },
+      "values": [
+        {
+          "number": "01",
+          "title": "Measured luxury",
+          "text": "Premium does not mean loud. We use proportion, material and detail to create restraint and comfort."
+        },
+        {
+          "number": "02",
+          "title": "Practical planning",
+          "text": "Storage, lighting, ventilation, movement and maintenance are planned before the visual layer is finalised."
+        },
+        {
+          "number": "03",
+          "title": "One accountable journey",
+          "text": "Design, sourcing, site coordination and handover remain connected through one organised process."
+        }
+      ],
+      "belief": {
+        "eyebrow": "Belief",
+        "quote": "A space should look considered, but feel completely natural to use.",
+        "text": "This is the principle behind every residential, commercial and renovation project.",
+        "alt": "Interior materials and architectural textures",
+        "button": {
+          "label": "See our process",
+          "href": "/process"
+        }
+      }
+    },
+    "services": {
+      "seo": {
+        "title": "What We Do",
+        "path": "/what-we-do",
+        "description": "Residential, commercial, turnkey and renovation interior services across Delhi NCR."
+      },
+      "hero": {
+        "eyebrow": "What we do",
+        "title": "Interior design, planning and execution under one clear process.",
+        "text": "From homes and offices to restaurants, clinics and renovation projects, services are structured to help customers choose the right starting point."
+      },
+      "cta": {
+        "eyebrow": "Need help choosing?",
+        "title": "Tell us what space you are planning.",
+        "text": "The right service depends on property type, budget, timeline and how much execution support you need.",
+        "href": "/contact",
+        "label": "Send Project Details"
+      }
+    },
+    "showcase": {
+      "seo": {
+        "title": "Showcase",
+        "path": "/showcase",
+        "description": "Interior design showcase with residential, commercial, office and renovation projects."
+      },
+      "hero": {
+        "eyebrow": "Showcase",
+        "title": "Selected interiors, organised by space type.",
+        "text": "Review sample residential, commercial, office, renovation and hospitality work. Search and filters are handled directly in the Next.js interface."
+      },
+      "filtersLabel": "Project filters",
+      "searchLabel": "Search projects",
+      "searchPlaceholder": "Search by location, style or service",
+      "resultSingular": "result",
+      "resultPlural": "results",
+      "sampleLabel": "Sample content",
+      "empty": {
+        "title": "No matching projects",
+        "text": "Try a broader search term or choose a different category."
+      },
+      "cta": {
+        "eyebrow": "Like a project?",
+        "title": "Bring reference images and your floor plan to the consultation.",
+        "text": "This helps the team understand your preferred style, budget direction and practical requirements.",
+        "href": "/contact",
+        "label": "Plan a similar space"
+      }
+    },
+    "process": {
+      "seo": {
+        "title": "Process",
+        "path": "/process",
+        "description": "Interior design and execution process from consultation to handover."
+      },
+      "hero": {
+        "eyebrow": "Process",
+        "title": "A clear route from concept to handover.",
+        "text": "Interior projects need structure. This page explains how the client journey stays clear from the first meeting to the final review."
+      },
+      "feature": {
+        "eyebrow": "Why process matters",
+        "title": "Good execution protects good design.",
+        "text": "Planning, sourcing and supervision should not be disconnected from the creative idea. The final website makes this strength visible.",
+        "alt": "Interior material detail"
+      }
+    },
+    "contact": {
+      "seo": {
+        "title": "Contact",
+        "path": "/contact",
+        "description": "Start a residential or commercial interior design project with Design Essentials."
+      },
+      "hero": {
+        "eyebrow": "Start a project",
+        "title": "Share the space, timeline and budget direction.",
+        "text": "This form qualifies residential and commercial enquiries before the first call."
+      },
+      "imageAlt": "Interior consultation table",
+      "detailLabels": {
+        "phone": "Phone",
+        "email": "Email",
+        "studio": "Studio",
+        "areas": "Service areas"
+      },
+      "initial": {
+        "name": "",
+        "phone": "",
+        "email": "",
+        "location": "",
+        "projectType": "Residential",
+        "area": "",
+        "budget": "To be discussed",
+        "timeline": "",
+        "message": ""
+      },
+      "status": {
+        "loading": "Sending enquiry...",
+        "fallbackError": "Please review the form and try again.",
+        "success": "Thanks. Your enquiry passed validation and is ready for email integration.",
+        "networkError": "The enquiry could not be submitted. Please try again.",
+        "sending": "Sending...",
+        "submit": "Send Enquiry"
+      },
+      "fields": [
+        {
+          "name": "name",
+          "label": "Full name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email"
+        },
+        {
+          "name": "location",
+          "label": "Project location",
+          "type": "text",
+          "placeholder": "Delhi / Gurgaon / Noida"
+        },
+        {
+          "name": "projectType",
+          "label": "Project type",
+          "type": "select",
+          "options": [
+            "Residential",
+            "Commercial",
+            "Renovation",
+            "Office",
+            "Retail / Hospitality"
+          ]
+        },
+        {
+          "name": "area",
+          "label": "Approx. area",
+          "type": "text",
+          "placeholder": "e.g. 1800 sq ft"
+        },
+        {
+          "name": "budget",
+          "label": "Budget range",
+          "type": "select",
+          "options": [
+            "To be discussed",
+            "Rs 2L-Rs 5L",
+            "Rs 5L-Rs 10L",
+            "Rs 10L-Rs 25L",
+            "Rs 25L+"
+          ]
+        },
+        {
+          "name": "timeline",
+          "label": "Expected start",
+          "type": "text",
+          "placeholder": "Immediately / 1 month / 3 months"
+        },
+        {
+          "name": "message",
+          "label": "Project brief",
+          "type": "textarea",
+          "placeholder": "Tell us about the space, requirements and preferred style.",
+          "full": true
+        }
+      ],
+      "upload": {
+        "label": "File uploads",
+        "text": "File upload support can be connected with the final form service or CRM."
+      }
+    },
+    "project": {
+      "sampleLabel": "Sample content",
+      "factsEyebrow": "Project facts",
+      "factLabels": {
+        "location": "Location",
+        "category": "Category",
+        "scope": "Scope",
+        "duration": "Duration"
+      },
+      "briefTitle": "Client brief",
+      "challengeTitle": "Design challenge",
+      "solutionTitle": "Solution",
+      "galleryLabel": "gallery",
+      "galleryAlt": "interior view",
+      "cta": {
+        "eyebrow": "Inspired by this project?",
+        "title": "Discuss a similar interior.",
+        "text": "Bring your floor plan, rough budget and preferred references to the first consultation.",
+        "href": "/contact",
+        "label": "Start Consultation"
+      }
+    }
+  },
+  "api": {
+    "contact": {
+      "endpoint": "/api/contact",
+      "allowedMethod": "POST",
+      "errors": {
+        "method": "Method not allowed",
+        "requiredPrefix": "Missing required field",
+        "requiredPlural": "s",
+        "email": "Please provide a valid email address."
+      },
+      "defaults": {
+        "projectType": "Residential",
+        "budget": "To be discussed"
+      },
+      "success": "Enquiry validated. Email/CRM delivery can be connected here."
+    }
+  }
+}

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import SiteLayout from '../components/site/SiteLayout'
 import { CtaPanel, ImageFrame, PageHero } from '../components/sections/Shared'
-import { filters, projects } from '../data/site'
+import { filters, pages, projects } from '../data/site'
 import { Seo } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
@@ -22,6 +22,7 @@ function matchesSearch(project, search) {
 }
 
 export default function Showcase() {
+  const content = pages.showcase
   const [activeFilter, setActiveFilter] = useState('all')
   const [search, setSearch] = useState('')
 
@@ -33,16 +34,14 @@ export default function Showcase() {
   return (
     <SiteLayout>
       <Seo
-        title="Showcase"
-        path="/showcase"
-        description="Interior design showcase with residential, commercial, office and renovation projects."
+        {...content.seo}
         image={projects[0].image}
       />
-      <PageHero eyebrow="Showcase" title="Selected interiors, organised by space type.">
-        Review sample residential, commercial, office, renovation and hospitality work. Search and filters are handled directly in the Next.js interface.
+      <PageHero eyebrow={content.hero.eyebrow} title={content.hero.title}>
+        {content.hero.text}
       </PageHero>
       <section className={styles.showcaseTools}>
-        <div className={styles.filterBar} aria-label="Project filters">
+        <div className={styles.filterBar} aria-label={content.filtersLabel}>
           {filters.map((filter) => (
             <button
               className={activeFilter === filter.value ? styles.activeFilter : undefined}
@@ -56,15 +55,15 @@ export default function Showcase() {
           ))}
         </div>
         <div className={styles.searchShell}>
-          <label htmlFor="project-search">Search projects</label>
+          <label htmlFor="project-search">{content.searchLabel}</label>
           <input
             id="project-search"
             type="search"
-            placeholder="Search by location, style or service"
+            placeholder={content.searchPlaceholder}
             value={search}
             onChange={(event) => setSearch(event.target.value)}
           />
-          <small>{visibleProjects.length} result{visibleProjects.length === 1 ? '' : 's'}</small>
+          <small>{visibleProjects.length} {visibleProjects.length === 1 ? content.resultSingular : content.resultPlural}</small>
         </div>
         {visibleProjects.length ? (
           <div className={styles.projectsGrid}>
@@ -76,7 +75,7 @@ export default function Showcase() {
                     <div>
                       <span>{project.type}</span>
                       <h3>{project.name}</h3>
-                      {project.placeholder ? <em className={styles.placeholder}>Sample content</em> : null}
+                      {project.placeholder ? <em className={styles.placeholder}>{content.sampleLabel}</em> : null}
                     </div>
                     <span>{project.location}</span>
                   </div>
@@ -86,17 +85,13 @@ export default function Showcase() {
           </div>
         ) : (
           <div className={styles.emptyState}>
-            <h2>No matching projects</h2>
-            <p>Try a broader search term or choose a different category.</p>
+            <h2>{content.empty.title}</h2>
+            <p>{content.empty.text}</p>
           </div>
         )}
       </section>
       <CtaPanel
-        eyebrow="Like a project?"
-        title="Bring reference images and your floor plan to the consultation."
-        text="This helps the team understand your preferred style, budget direction and practical requirements."
-        href="/contact"
-        label="Plan a similar space"
+        {...content.cta}
       />
     </SiteLayout>
   )

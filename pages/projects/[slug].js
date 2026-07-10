@@ -1,12 +1,13 @@
 import { useRouter } from 'next/router'
 import SiteLayout from '../../components/site/SiteLayout'
 import { CtaPanel, ImageFrame, Section } from '../../components/sections/Shared'
-import { projects } from '../../data/site'
+import { pages, projects } from '../../data/site'
 import { projectSchema, Seo } from '../../lib/seo'
 import styles from '../../styles/pages.module.css'
 
 export default function ProjectDetail({ project }) {
   const router = useRouter()
+  const content = pages.project
 
   if (router.isFallback) return null
 
@@ -24,7 +25,7 @@ export default function ProjectDetail({ project }) {
           <span>{project.category}</span>
           <span>{project.location}</span>
           <span>{project.type}</span>
-          {project.placeholder ? <span>Sample content</span> : null}
+          {project.placeholder ? <span>{content.sampleLabel}</span> : null}
         </div>
         <h1>{project.name}</h1>
         <p>{project.description}</p>
@@ -32,34 +33,30 @@ export default function ProjectDetail({ project }) {
       </section>
       <Section className={styles.projectSummary}>
         <div>
-          <div className="eyebrow">Project facts</div>
+          <div className="eyebrow">{content.factsEyebrow}</div>
           <ul>
-            <li>Location: {project.location}</li>
-            <li>Category: {project.type}</li>
-            <li>Scope: {project.scope}</li>
-            <li>Duration: {project.duration}</li>
+            <li>{content.factLabels.location}: {project.location}</li>
+            <li>{content.factLabels.category}: {project.type}</li>
+            <li>{content.factLabels.scope}: {project.scope}</li>
+            <li>{content.factLabels.duration}: {project.duration}</li>
           </ul>
         </div>
         <div>
-          <h2>Client brief</h2>
+          <h2>{content.briefTitle}</h2>
           <p>{project.brief}</p>
         </div>
       </Section>
       <Section className={styles.caseGrid}>
-        <article><h2>Design challenge</h2><p>{project.challenge}</p></article>
-        <article><h2>Solution</h2><p>{project.solution}</p></article>
+        <article><h2>{content.challengeTitle}</h2><p>{project.challenge}</p></article>
+        <article><h2>{content.solutionTitle}</h2><p>{project.solution}</p></article>
       </Section>
-      <section className={styles.projectGalleryDetail} aria-label={`${project.name} gallery`}>
+      <section className={styles.projectGalleryDetail} aria-label={`${project.name} ${content.galleryLabel}`}>
         {project.gallery.map((image, index) => (
-          <img src={image} alt={`${project.name} interior view ${index + 1}`} key={`${image}-${index}`} />
+          <img src={image} alt={`${project.name} ${content.galleryAlt} ${index + 1}`} key={`${image}-${index}`} />
         ))}
       </section>
       <CtaPanel
-        eyebrow="Inspired by this project?"
-        title="Discuss a similar interior."
-        text="Bring your floor plan, rough budget and preferred references to the first consultation."
-        href="/contact"
-        label="Start Consultation"
+        {...content.cta}
       />
     </SiteLayout>
   )

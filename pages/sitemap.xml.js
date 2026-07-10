@@ -1,12 +1,7 @@
-import { projects, siteConfig } from '../data/site'
+import { navItems, projects, siteConfig } from '../data/site'
 
 const routes = [
-  '/',
-  '/about',
-  '/what-we-do',
-  '/showcase',
-  '/process',
-  '/contact',
+  ...navItems.map((item) => item.href),
   ...projects.map((project) => `/projects/${project.slug}`),
 ]
 
