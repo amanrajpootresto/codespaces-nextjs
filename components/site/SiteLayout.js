@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import { layout, navItems, siteConfig } from '../../data/site'
+import { useSiteContent } from './SiteContentContext'
 import styles from './SiteLayout.module.css'
 
 function isActive(pathname, href) {
@@ -12,6 +12,7 @@ function isActive(pathname, href) {
 }
 
 export function Header() {
+  const { layout, navItems, siteConfig } = useSiteContent()
   const router = useRouter()
   const [isOpen, setIsOpen] = useState(false)
 
@@ -63,6 +64,7 @@ export function Header() {
 }
 
 export function Footer() {
+  const { layout, siteConfig } = useSiteContent()
   const footer = layout.footer
   return (
     <footer className={styles.footer}>
@@ -99,6 +101,7 @@ export function Footer() {
 }
 
 export default function SiteLayout({ children }) {
+  const { layout } = useSiteContent()
   return (
     <>
       <a className="skip-link" href={layout.skipHref}>

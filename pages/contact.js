@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import SiteLayout from '../components/site/SiteLayout'
 import { ImageFrame, PageHero, Section } from '../components/sections/Shared'
-import { api, imageLibrary, pages, siteConfig } from '../data/site'
+import { contentPageProps, getSiteContent } from '../lib/get-site-content'
 import { localBusinessSchema, Seo } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
-const content = pages.contact
-const initialState = content.initial
-
-export default function Contact() {
+export default function Contact({ siteContent }) {
+  const { api, imageLibrary, pages, siteConfig } = siteContent
+  const content = pages.contact
+  const initialState = content.initial
   const [form, setForm] = useState(initialState)
   const [status, setStatus] = useState({ state: 'idle', message: '' })
 
@@ -49,7 +49,7 @@ export default function Contact() {
       <Seo
         {...content.seo}
         image={imageLibrary.consultation}
-        jsonLd={localBusinessSchema()}
+        jsonLd={localBusinessSchema(siteConfig)}
       />
       <PageHero eyebrow={content.hero.eyebrow} title={content.hero.title}>
         {content.hero.text}
@@ -97,4 +97,8 @@ export default function Contact() {
       </Section>
     </SiteLayout>
   )
+}
+
+export async function getStaticProps() {
+  return contentPageProps(await getSiteContent())
 }

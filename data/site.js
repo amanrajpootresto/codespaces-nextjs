@@ -1,6 +1,7 @@
 import content from './site.json'
 
 export const {
+  contentApi,
   siteConfig,
   navItems,
   imageLibrary,

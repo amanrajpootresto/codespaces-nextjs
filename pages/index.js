@@ -1,18 +1,19 @@
 import Link from 'next/link'
 import SiteLayout from '../components/site/SiteLayout'
 import { ButtonLink, ButtonRow, CtaPanel, ImageFrame, Section, SectionHead } from '../components/sections/Shared'
-import { imageLibrary, pages, processSteps, services, siteConfig } from '../data/site'
+import { contentPageProps, getSiteContent } from '../lib/get-site-content'
 import { localBusinessSchema, Seo, serviceSchema, websiteSchema } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
-export default function Home() {
+export default function Home({ siteContent }) {
+  const { imageLibrary, pages, processSteps, services, siteConfig } = siteContent
   const content = pages.home
   return (
     <SiteLayout>
       <Seo
         description={siteConfig.description}
         image={imageLibrary.hero}
-        jsonLd={[localBusinessSchema(), websiteSchema(), serviceSchema(services)]}
+        jsonLd={[localBusinessSchema(siteConfig), websiteSchema(siteConfig), serviceSchema(services, siteConfig)]}
       />
       <section className={styles.homeHero}>
         <aside className={styles.heroRail}>
@@ -114,4 +115,8 @@ export default function Home() {
       />
     </SiteLayout>
   )
+}
+
+export async function getStaticProps() {
+  return contentPageProps(await getSiteContent())
 }

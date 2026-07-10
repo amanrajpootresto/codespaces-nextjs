@@ -1,12 +1,14 @@
 import { useRouter } from 'next/router'
 import SiteLayout from '../../components/site/SiteLayout'
 import { CtaPanel, ImageFrame, Section } from '../../components/sections/Shared'
-import { pages, projects } from '../../data/site'
+import fallbackContent from '../../data/site.json'
+import { getSiteContent } from '../../lib/get-site-content'
 import { projectSchema, Seo } from '../../lib/seo'
 import styles from '../../styles/pages.module.css'
 
-export default function ProjectDetail({ project }) {
+export default function ProjectDetail({ project, siteContent }) {
   const router = useRouter()
+  const { pages, siteConfig } = siteContent
   const content = pages.project
 
   if (router.isFallback) return null
@@ -18,7 +20,7 @@ export default function ProjectDetail({ project }) {
         path={`/projects/${project.slug}`}
         description={project.description}
         image={project.image}
-        jsonLd={projectSchema(project)}
+        jsonLd={projectSchema(project, siteConfig)}
       />
       <section className={styles.projectDetailHero}>
         <div className={styles.projectLabels}>
@@ -63,10 +65,13 @@ export default function ProjectDetail({ project }) {
 }
 
 export function getStaticPaths() {
-  return { paths: projects.map((project) => ({ params: { slug: project.slug } })), fallback: false }
+  return { paths: fallbackContent.projects.map((project) => ({ params: { slug: project.slug } })), fallback: 'blocking' }
 }
 
-export function getStaticProps({ params }) {
-  const project = projects.find((item) => item.slug === params.slug)
-  return project ? { props: { project } } : { notFound: true }
+export async function getStaticProps({ params }) {
+  const siteContent = await getSiteContent()
+  const project = siteContent.projects.find((item) => item.slug === params.slug)
+  return project
+    ? { props: { project, siteContent }, revalidate: siteContent.contentApi?.revalidateSeconds || 60 }
+    : { notFound: true, revalidate: 60 }
 }

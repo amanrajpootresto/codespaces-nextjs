@@ -1,4 +1,8 @@
 {
+  "contentApi": {
+    "url": "https://script.google.com/macros/s/AKfycbwQS1ckQ-tit4x09dqv0xGC5v98yvUNVd5XjVyVKTHnvSEi99w-ULVZjF8QnC1Xdlt9/exec",
+    "revalidateSeconds": 60
+  },
   "siteConfig": {
     "name": "Design Essentials",
     "studioLine": "INTERIORS / DELHI NCR",

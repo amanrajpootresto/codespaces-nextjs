@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import SiteLayout from '../components/site/SiteLayout'
 import { CtaPanel, ImageFrame, PageHero } from '../components/sections/Shared'
-import { filters, pages, projects } from '../data/site'
+import { contentPageProps, getSiteContent } from '../lib/get-site-content'
 import { Seo } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
@@ -21,7 +21,8 @@ function matchesSearch(project, search) {
     .includes(query)
 }
 
-export default function Showcase() {
+export default function Showcase({ siteContent }) {
+  const { filters, pages, projects } = siteContent
   const content = pages.showcase
   const [activeFilter, setActiveFilter] = useState('all')
   const [search, setSearch] = useState('')
@@ -95,4 +96,8 @@ export default function Showcase() {
       />
     </SiteLayout>
   )
+}
+
+export async function getStaticProps() {
+  return contentPageProps(await getSiteContent())
 }

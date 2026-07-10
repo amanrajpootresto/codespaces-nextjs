@@ -1,17 +1,18 @@
 import SiteLayout from '../components/site/SiteLayout'
 import { ButtonLink, ImageFrame, Note, PageHero, Section } from '../components/sections/Shared'
-import { imageLibrary, pages } from '../data/site'
+import { contentPageProps, getSiteContent } from '../lib/get-site-content'
 import { localBusinessSchema, Seo } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
-export default function About() {
+export default function About({ siteContent }) {
+  const { imageLibrary, pages, siteConfig } = siteContent
   const content = pages.about
   return (
     <SiteLayout>
       <Seo
         {...content.seo}
         image={imageLibrary.exterior}
-        jsonLd={localBusinessSchema()}
+        jsonLd={localBusinessSchema(siteConfig)}
       />
       <PageHero
         eyebrow={content.hero.eyebrow}
@@ -42,4 +43,8 @@ export default function About() {
       </section>
     </SiteLayout>
   )
+}
+
+export async function getStaticProps() {
+  return contentPageProps(await getSiteContent())
 }

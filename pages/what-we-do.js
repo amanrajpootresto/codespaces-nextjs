@@ -1,17 +1,18 @@
 import SiteLayout from '../components/site/SiteLayout'
 import { CtaPanel, ImageFrame, PageHero } from '../components/sections/Shared'
-import { pages, services } from '../data/site'
+import { contentPageProps, getSiteContent } from '../lib/get-site-content'
 import { Seo, serviceSchema } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
-export default function WhatWeDo() {
+export default function WhatWeDo({ siteContent }) {
+  const { pages, services, siteConfig } = siteContent
   const content = pages.services
   return (
     <SiteLayout>
       <Seo
         {...content.seo}
         image={services[0].image}
-        jsonLd={serviceSchema(services)}
+        jsonLd={serviceSchema(services, siteConfig)}
       />
       <PageHero eyebrow={content.hero.eyebrow} title={content.hero.title}>
         {content.hero.text}
@@ -42,4 +43,8 @@ export default function WhatWeDo() {
       />
     </SiteLayout>
   )
+}
+
+export async function getStaticProps() {
+  return contentPageProps(await getSiteContent())
 }
