@@ -26,19 +26,26 @@
 .heroStage {
   padding: clamp(2rem, 3vw, 4rem);
   display: grid;
-  grid-template-columns: .86fr 1.14fr;
+  grid-template-columns: .92fr 1.08fr;
   gap: 3vw;
-  align-items: end;
+  align-items: center;
+}
+
+.heroCopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: min(68vh, 720px);
 }
 
 .heroCopy p {
-  font-size: 1.05rem;
+  font-size: 1rem;
   margin-top: 1.25rem;
   color: #44554e;
 }
 
 .heroPhoto {
-  height: 72vh;
+  height: min(68vh, 720px);
 }
 
 .heroPhoto img {
@@ -59,7 +66,7 @@
 .editorial p {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: clamp(2.1rem, 3.8vw, 4.4rem);
+  font-size: clamp(1.9rem, 3.35vw, 3.85rem);
   line-height: 1.12;
   letter-spacing: 0;
   color: var(--ink);
@@ -314,7 +321,7 @@
 
 .quoteCopy blockquote {
   font-family: var(--serif);
-  font-size: clamp(2.2rem, 4vw, 4.4rem);
+  font-size: clamp(2rem, 3.55vw, 3.85rem);
   line-height: 1.12;
   margin: 2rem 0;
 }
@@ -631,7 +638,7 @@
 }
 
 .projectDetailHero p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 2.5rem;
 }
 
@@ -672,20 +679,27 @@
 
 .projectGalleryDetail {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1px;
+  background: var(--ink);
+  padding: 1px 0;
   border-bottom: 1px solid var(--ink);
 }
 
 .projectGalleryDetail img {
-  height: 520px;
+  grid-column: span 4;
+  height: 500px;
   width: 100%;
   object-fit: cover;
   filter: var(--image-filter);
-  border-right: 1px solid var(--ink);
+  border-right: 0;
+  background: var(--surface);
 }
 
-.projectGalleryDetail img:last-child {
-  border-right: 0;
+.projectGalleryDetail img:nth-child(5n + 1),
+.projectGalleryDetail img:nth-child(5n + 2) {
+  grid-column: span 6;
+  height: 590px;
 }
 
 @media (max-width: 980px) {
@@ -699,6 +713,10 @@
 
   .heroPhoto {
     height: 56vh;
+  }
+
+  .heroCopy {
+    min-height: auto;
   }
 
   .projectsGrid {
@@ -870,8 +888,16 @@
   }
 
   .projectGalleryDetail img {
+    grid-column: auto;
     height: 58vh;
     border-right: 0;
     border-bottom: 1px solid var(--ink);
+  }
+
+
+  .projectGalleryDetail img:nth-child(5n + 1),
+  .projectGalleryDetail img:nth-child(5n + 2) {
+    grid-column: auto;
+    height: 58vh;
   }
 }

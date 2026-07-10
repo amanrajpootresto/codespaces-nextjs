@@ -162,7 +162,7 @@ export const processSteps = [
   },
 ]
 
-export const projects = [
+const projectList = [
   {
     slug: 'sandstone-residence',
     name: 'Sandstone Residence',
@@ -274,6 +274,85 @@ export const projects = [
     placeholder: true,
   },
 ]
+
+const projectDetailContent = {
+  'cyber-city-workspace': {
+    description: 'A focused workplace balancing collaborative energy with quiet, concentrated work.',
+    scope: 'Reception, workstations, meeting rooms and breakout areas',
+    brief: 'The team needed a flexible office that could support focused work, informal reviews and client meetings without losing a clear visual identity.',
+    challenge: 'Acoustic privacy and generous circulation had to coexist within an efficient commercial floor plate.',
+    solution: 'Layered lighting, warm timber notes and carefully zoned shared spaces give the office clarity without making it feel rigid.',
+    gallery: [imageLibrary.turnkey, imageLibrary.retail, imageLibrary.material, imageLibrary.consultation],
+  },
+  'pitampura-family-home': {
+    description: 'A familiar family home renewed with lighter finishes, smarter storage and easier movement.',
+    scope: 'Living room, bedrooms, storage and finish upgrades',
+    brief: 'The owners wanted to retain the warmth of their long-lived home while updating its storage, lighting and everyday usability.',
+    challenge: 'The renovation needed to respect existing elements and limit disruption while giving the rooms a coherent new character.',
+    solution: 'A lighter palette, integrated joinery and selective surface upgrades make the home feel calm, open and distinctly personal.',
+    gallery: [imageLibrary.bedroom, imageLibrary.intro, imageLibrary.material, imageLibrary.residence],
+  },
+  'courtyard-cafe': {
+    description: 'A relaxed neighbourhood cafe shaped by tactile finishes and an easy indoor-outdoor mood.',
+    scope: 'Dining, service counter, lighting and customer experience',
+    brief: 'The client wanted a memorable hospitality space that felt welcoming throughout the day and worked efficiently during peak service.',
+    challenge: 'Customer flow, table density and operational movement had to be resolved within a compact footprint.',
+    solution: 'Distinct seating zones, warm ambient light and robust natural textures create character while protecting service efficiency.',
+    gallery: [imageLibrary.material, imageLibrary.retail, imageLibrary.commercial, imageLibrary.intro],
+  },
+  'boutique-retail-studio': {
+    description: 'A composed retail setting designed to let products, materials and personal service take focus.',
+    scope: 'Display system, trial area, lighting and brand touchpoints',
+    brief: 'The boutique needed a polished customer journey with flexible displays that could adapt to new collections.',
+    challenge: 'Storage and sales functions had to remain discreet without reducing the sense of openness.',
+    solution: 'A modular display rhythm, concealed storage and precise accent lighting create an elegant, adaptable showroom.',
+    gallery: [imageLibrary.commercial, imageLibrary.turnkey, imageLibrary.material, imageLibrary.cafe],
+  },
+  'noida-apartment': {
+    description: 'A compact apartment made more generous through soft tones, built-in storage and clean sightlines.',
+    scope: 'Living, bedrooms, kitchen and space optimisation',
+    brief: 'The family asked for a bright, low-maintenance home with enough storage for daily life and a comfortable setting for guests.',
+    challenge: 'Every room needed to work harder without feeling filled with furniture or heavy joinery.',
+    solution: 'Full-height storage, pale finishes and visually light furniture preserve openness while meeting practical needs.',
+    gallery: [imageLibrary.residential, imageLibrary.residence, imageLibrary.intro, imageLibrary.material],
+  },
+  'clinic-reception': {
+    description: 'A reassuring healthcare arrival space with intuitive movement, privacy and a calm material palette.',
+    scope: 'Reception, waiting, consultation approach and lighting',
+    brief: 'The clinic needed a professional first impression that reduced visual stress and made patient movement easy to understand.',
+    challenge: 'Privacy, accessibility and operational visibility required careful coordination in a limited front-of-house area.',
+    solution: 'Clear zoning, soft indirect light and durable finishes create an orderly environment that still feels warm and human.',
+    gallery: [imageLibrary.commercial, imageLibrary.consultation, imageLibrary.retail, imageLibrary.material],
+  },
+  'warm-minimal-villa': {
+    description: 'A villa renovation that pairs generous proportions with restrained detail and natural warmth.',
+    scope: 'Living areas, bedrooms, lighting and material renewal',
+    brief: 'The owners wanted to simplify an ornate interior and create a quieter backdrop for family life and collected objects.',
+    challenge: 'The new language had to connect rooms of different scales while retaining useful existing construction.',
+    solution: 'Consistent flooring, warm neutrals and edited architectural details bring continuity and a more relaxed sense of luxury.',
+    gallery: [imageLibrary.residence, imageLibrary.bedroom, imageLibrary.exterior, imageLibrary.material],
+  },
+  'compact-restaurant': {
+    description: 'A small restaurant with strong atmosphere, efficient service flow and a distinctive evening identity.',
+    scope: 'Dining layout, counter, lighting and finish specification',
+    brief: 'The concept called for an intimate dining room that could achieve good capacity without compromising guest comfort.',
+    challenge: 'Kitchen movement, table spacing and visual impact all competed for a narrow footprint.',
+    solution: 'A disciplined plan, layered wall treatments and focused pools of light make the room feel richer and more spacious.',
+    gallery: [imageLibrary.cafe, imageLibrary.retail, imageLibrary.commercial, imageLibrary.turnkey],
+  },
+}
+
+export const projects = projectList.map((project) => ({
+  duration: 'To be confirmed',
+  gallery: [project.image, imageLibrary.material, imageLibrary.intro],
+  description: `A considered ${project.type.toLowerCase()} shaped around function, atmosphere and durable detail.`,
+  scope: project.type,
+  brief: 'The project began with a clear review of the space, daily requirements, visual references, budget direction and delivery priorities.',
+  challenge: 'The design needed to balance a polished visual identity with practical planning, maintenance and execution constraints.',
+  solution: 'A coordinated layout, material palette and lighting strategy bring clarity to the space and support how it is used every day.',
+  ...project,
+  ...projectDetailContent[project.slug],
+}))
 
 export const filters = [
   { label: 'All', value: 'all' },

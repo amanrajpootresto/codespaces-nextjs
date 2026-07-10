@@ -1,6 +1,14 @@
-import { siteConfig } from '../data/site'
+import { projects, siteConfig } from '../data/site'
 
-const routes = ['/', '/about', '/what-we-do', '/showcase', '/process', '/contact', '/projects/sandstone-residence']
+const routes = [
+  '/',
+  '/about',
+  '/what-we-do',
+  '/showcase',
+  '/process',
+  '/contact',
+  ...projects.map((project) => `/projects/${project.slug}`),
+]
 
 function generateSitemap() {
   return `<?xml version="1.0" encoding="UTF-8"?>

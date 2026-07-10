@@ -2,7 +2,8 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  background: color-mix(in srgb, var(--ink) 96%, transparent);
+  color: var(--paper);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--ink);
 }
@@ -27,7 +28,8 @@
   height: 46px;
   max-width: 145px;
   object-fit: contain;
-  mix-blend-mode: multiply;
+  mix-blend-mode: screen;
+  filter: brightness(0) invert(1);
 }
 
 .brandText {
@@ -41,7 +43,7 @@
   font-size: .55rem;
   letter-spacing: .22em;
   font-weight: 500;
-  color: var(--muted);
+  color: color-mix(in srgb, var(--paper) 72%, transparent);
 }
 
 .menuButton {
@@ -123,9 +125,9 @@
   justify-content: center;
   min-height: 46px;
   padding: .95rem 1.15rem;
-  border: 1px solid var(--ink);
-  background: var(--ink);
-  color: var(--paper);
+  border: 1px solid var(--paper);
+  background: var(--paper);
+  color: var(--ink);
   font-size: .72rem;
   letter-spacing: .14em;
   text-transform: uppercase;
@@ -208,10 +210,11 @@
     display: none;
     flex-direction: column;
     align-items: stretch;
-    background: var(--paper);
+    background: var(--ink);
+    color: var(--paper);
     padding: 1.25rem;
-    border-top: 1px solid var(--ink);
-    border-bottom: 1px solid var(--ink);
+    border-top: 1px solid color-mix(in srgb, var(--paper) 30%, transparent);
+    border-bottom: 1px solid var(--paper);
   }
 
   .navOpen {

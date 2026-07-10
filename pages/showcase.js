@@ -70,7 +70,7 @@ export default function Showcase() {
           <div className={styles.projectsGrid}>
             {visibleProjects.map((project) => (
               <article className={styles.projectCard} key={project.slug}>
-                <Link href={project.slug === 'sandstone-residence' ? `/projects/${project.slug}` : '/projects/sandstone-residence'}>
+                <Link href={`/projects/${project.slug}`}>
                   <ImageFrame className={styles.projectImage} src={project.image} alt={project.alt} />
                   <div className={styles.projectMeta}>
                     <div>
