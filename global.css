@@ -29,8 +29,8 @@ html {
 body {
   margin: 0;
   font-family: var(--sans);
-  font-size: 15.5px;
-  line-height: 1.65;
+  font-size: 14.5px;
+  line-height: 1.62;
   background: var(--paper);
   color: var(--ink);
   text-rendering: optimizeLegibility;
@@ -75,16 +75,16 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(2.85rem, 6.7vw, 7.2rem);
+  font-size: clamp(2.6rem, 5.9vw, 6.35rem);
   max-width: 1050px;
 }
 
 h2 {
-  font-size: clamp(2rem, 4.15vw, 4.35rem);
+  font-size: clamp(1.8rem, 3.65vw, 3.8rem);
 }
 
 h3 {
-  font-size: clamp(1.3rem, 2vw, 2rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
 }
 
 p {
@@ -126,11 +126,11 @@ ul {
 
 @media (max-width: 760px) {
   body {
-    font-size: 15px;
+    font-size: 14.5px;
   }
 
   h1 {
-    font-size: clamp(2.65rem, 13.5vw, 5rem);
+    font-size: clamp(2.4rem, 12vw, 4.5rem);
     line-height: .98;
   }
 }
