@@ -8,8 +8,9 @@ import styles from '../../styles/pages.module.css'
 
 export default function ProjectDetail({ project, siteContent }) {
   const router = useRouter()
-  const { pages, siteConfig } = siteContent
+  const { filters, pages, siteConfig } = siteContent
   const content = pages.project
+  const categoryLabel = filters.find((filter) => filter.value === project.category)?.label || project.category
 
   if (router.isFallback) return null
 
@@ -24,7 +25,7 @@ export default function ProjectDetail({ project, siteContent }) {
       />
       <section className={styles.projectDetailHero}>
         <div className={styles.projectLabels}>
-          <span>{project.category}</span>
+          <span>{categoryLabel}</span>
           <span>{project.location}</span>
           <span>{project.type}</span>
           {project.placeholder ? <span>{content.sampleLabel}</span> : null}
@@ -38,7 +39,8 @@ export default function ProjectDetail({ project, siteContent }) {
           <div className="eyebrow">{content.factsEyebrow}</div>
           <ul>
             <li>{content.factLabels.location}: {project.location}</li>
-            <li>{content.factLabels.category}: {project.type}</li>
+            <li>{content.factLabels.category}: {categoryLabel}</li>
+            <li>{content.factLabels.type}: {project.type}</li>
             <li>{content.factLabels.scope}: {project.scope}</li>
             <li>{content.factLabels.duration}: {project.duration}</li>
           </ul>

@@ -7,7 +7,7 @@ import { Seo } from '../lib/seo'
 import styles from '../styles/pages.module.css'
 
 function matchesFilter(project, filter) {
-  return filter === 'all' || project.category === filter || project.tags.includes(filter)
+  return filter === 'all' || project.category === filter || project.tags?.includes(filter)
 }
 
 function matchesSearch(project, search) {
@@ -15,8 +15,21 @@ function matchesSearch(project, search) {
   if (!query) {
     return true
   }
-  return [project.name, project.type, project.location, project.category, ...project.tags]
+  return [
+    project.name,
+    project.type,
+    project.location,
+    project.category,
+    ...(project.tags || []),
+    project.description,
+    project.scope,
+    project.brief,
+    project.challenge,
+    project.solution,
+  ]
+    .filter(Boolean)
     .join(' ')
+    .replace(/[-_/]/g, ' ')
     .toLowerCase()
     .includes(query)
 }

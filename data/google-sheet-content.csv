@@ -3,7 +3,7 @@ siteConfig.name,Design Essentials,string
 siteConfig.studioLine,INTERIORS / DELHI NCR,string
 siteConfig.tagline,Spaces with purpose. Details with meaning.,string
 siteConfig.description,"Premium residential and commercial interior design, planning and turnkey execution across Delhi NCR.",string
-siteConfig.baseUrl,https://design-essentials-p3.vercel.app,string
+siteConfig.baseUrl,https://design-essentials-w1.vercel.app,string
 siteConfig.phone,+91 98110 06842,string
 siteConfig.phoneHref,tel:+919811006842,string
 siteConfig.email,info@designessentials.co.in,string
@@ -35,27 +35,27 @@ navItems.4.label,Process,string
 navItems.4.href,/process,string
 navItems.5.label,Contact,string
 navItems.5.href,/contact,string
-imageLibrary.hero,https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=86,string
-imageLibrary.intro,https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.residential,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.commercial,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.turnkey,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.renovation,https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.residence,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
-imageLibrary.exterior,https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.material,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.consultation,https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.bedroom,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.villa,https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.cafe,https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86,string
-imageLibrary.retail,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
+imageLibrary.hero,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546040/20.jpg,string
+imageLibrary.intro,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546046/25.jpg,string
+imageLibrary.residential,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546237/128.jpg,string
+imageLibrary.commercial,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546744/275.jpg,string
+imageLibrary.turnkey,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546658/210.jpg,string
+imageLibrary.renovation,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546144/96.jpg,string
+imageLibrary.residence,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546672/231.jpg,string
+imageLibrary.exterior,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546997/363.jpg,string
+imageLibrary.material,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546265/143.jpg,string
+imageLibrary.consultation,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546112/59.jpg,string
+imageLibrary.bedroom,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546340/51.jpg,string
+imageLibrary.villa,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546255/136.jpg,string
+imageLibrary.cafe,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/73.jpg,string
+imageLibrary.retail,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546260/141.jpg,string
 services.0.id,residential,string
 services.0.number,01,string
 services.0.title,Residential Interior Design,string
 services.0.shortTitle,Residential interiors,string
 services.0.description,"Complete home interiors, modular kitchens, wardrobes, living rooms, bedrooms and renovation planning for apartments, villas and builder floors.",string
 services.0.summary,"Complete homes, kitchens, wardrobes and rooms.",string
-services.0.image,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86,string
+services.0.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546237/128.jpg,string
 services.0.alt,Residential interior design,string
 services.0.points.0,Space planning and furniture layout,string
 services.0.points.1,"Kitchen, wardrobe and storage design",string
@@ -67,7 +67,7 @@ services.1.title,Commercial Interior Design,string
 services.1.shortTitle,Commercial interiors,string
 services.1.description,"Office, retail, clinic, hospitality and showroom interiors designed around workflow, customer experience, brand presence and business continuity.",string
 services.1.summary,"Offices, retail, clinics, restaurants and showrooms.",string
-services.1.image,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
+services.1.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546744/275.jpg,string
 services.1.alt,Commercial office interior design,string
 services.1.points.0,Office and workspace planning,string
 services.1.points.1,"Reception, meeting and customer zones",string
@@ -79,7 +79,7 @@ services.2.title,Turnkey Interior Execution,string
 services.2.shortTitle,Turnkey execution,string
 services.2.description,"For clients who want one accountable team to manage design, sourcing, contractors, installation and final handover.",string
 services.2.summary,"Civil, furniture, electrical, procurement and site coordination.",string
-services.2.image,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
+services.2.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546658/210.jpg,string
 services.2.alt,Turnkey interior execution,string
 services.2.points.0,"Civil, electrical, plumbing and false ceiling coordination",string
 services.2.points.1,Furniture and modular fabrication,string
@@ -91,7 +91,7 @@ services.3.title,Renovation and Space Improvement,string
 services.3.shortTitle,Renovation,string
 services.3.description,"Existing spaces reworked with a focus on better layout, updated finishes, improved lighting and practical upgrades.",string
 services.3.summary,Existing spaces reworked with minimal disruption.,string
-services.3.image,https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=86,string
+services.3.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546144/96.jpg,string
 services.3.alt,Interior renovation,string
 services.3.points.0,Space optimisation,string
 services.3.points.1,"Wall, flooring and ceiling upgrades",string
@@ -127,207 +127,219 @@ processSteps.5.label,HANDOVER,string
 processSteps.5.title,Handover,string
 processSteps.5.shortTitle,Handover,string
 processSteps.5.description,"Review the finished space, document care guidance and close remaining practical details.",string
-projects.0.duration,To be verified with client,string
-projects.0.gallery.0,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
-projects.0.gallery.1,https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86,string
-projects.0.gallery.2,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-projects.0.description,"A calm family home concept built around warm textures, concealed storage and natural light.",string
-projects.0.scope,"Living, bedrooms, kitchen and wardrobes",string
-projects.0.brief,"The family wanted a refined home that felt warm, uncluttered and easy to maintain. The layout needed better storage, improved circulation and a consistent material language.",string
-projects.0.challenge,The challenge was to create a premium mood without making the apartment feel heavy or over-designed. Every element had to support daily family use.,string
-projects.0.solution,"A restrained palette, layered textures, concealed storage and simple furniture lines create a calm home with enough flexibility for everyday life.",string
+projects.0.duration,Defined after site assessment,string
+projects.0.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546751/276.jpg,string
+projects.0.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546744/277.jpg,string
+projects.0.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546740/259.jpg,string
+projects.0.description,"A quietly tailored family living room where warm mineral tones, generous seating and integrated storage create an easy setting for everyday life.",string
+projects.0.scope,"Living-room planning, seating layout, media joinery, display storage, lighting and soft-furnishing direction",string
+projects.0.brief,"The family wanted their main room to feel composed enough for guests and relaxed enough for daily use, with a clear place for media, books and objects collected over time.",string
+projects.0.challenge,"The room needed substantial storage and comfortable seating without losing the openness, daylight and calm visual rhythm that make a living room feel generous.",string
+projects.0.solution,"A low, linear furniture plan is paired with integrated joinery, layered ambient lighting and a restrained sand-and-timber palette to give the room warmth, order and flexibility.",string
 projects.0.slug,sandstone-residence,string
 projects.0.name,Sandstone Residence,string
 projects.0.type,3BHK Residence,string
-projects.0.category,residential,string
-projects.0.tags.0,residential,string
-projects.0.tags.1,home,string
-projects.0.tags.2,3bhk,string
-projects.0.tags.3,turnkey,string
+projects.0.category,living-room,string
+projects.0.tags.0,living-room,string
+projects.0.tags.1,residential,string
+projects.0.tags.2,home,string
+projects.0.tags.3,family,string
+projects.0.tags.4,storage,string
 projects.0.location,Gurgaon,string
-projects.0.image,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
+projects.0.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546735/267.jpg,string
 projects.0.alt,Sandstone Residence interior project,string
 projects.0.placeholder,true,boolean
-projects.1.duration,To be confirmed,string
-projects.1.gallery.0,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
-projects.1.gallery.1,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
-projects.1.gallery.2,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-projects.1.gallery.3,https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86,string
-projects.1.description,"A focused workplace balancing collaborative energy with quiet, concentrated work.",string
-projects.1.scope,"Reception, workstations, meeting rooms and breakout areas",string
-projects.1.brief,"The team needed a flexible office that could support focused work, informal reviews and client meetings without losing a clear visual identity.",string
-projects.1.challenge,Acoustic privacy and generous circulation had to coexist within an efficient commercial floor plate.,string
-projects.1.solution,"Layered lighting, warm timber notes and carefully zoned shared spaces give the office clarity without making it feel rigid.",string
-projects.1.slug,cyber-city-workspace,string
-projects.1.name,Cyber City Workspace,string
-projects.1.type,Office Interior,string
-projects.1.category,commercial,string
-projects.1.tags.0,commercial,string
-projects.1.tags.1,office,string
-projects.1.tags.2,workspace,string
+projects.1.duration,Defined after site assessment,string
+projects.1.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546659/212.jpg,string
+projects.1.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546659/213.jpg,string
+projects.1.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546657/206.jpg,string
+projects.1.gallery.3,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546652/200.jpg,string
+projects.1.description,"A practical family kitchen that brings prep, cooking, cleaning and casual dining into one clear, efficient sequence.",string
+projects.1.scope,"Kitchen planning, appliance integration, pantry storage, breakfast counter, task lighting and durable finish specification",string
+projects.1.brief,"The household needed a kitchen that could handle daily cooking, school-day breakfasts and weekly stocking without turning the counter or circulation route into a bottleneck.",string
+projects.1.challenge,"The compact footprint had to accommodate a complete appliance set, generous dry storage and two-person movement while keeping the room bright and visually calm.",string
+projects.1.solution,"Full-height pantry units, an integrated appliance wall, continuous worktops and under-cabinet lighting create a functional kitchen with easy reach, clean lines and lasting materials.",string
+projects.1.slug,gurgaon-family-kitchen,string
+projects.1.name,Gurgaon Family Kitchen,string
+projects.1.type,Kitchen Interior,string
+projects.1.category,kitchen,string
+projects.1.tags.0,kitchen,string
+projects.1.tags.1,family,string
+projects.1.tags.2,storage,string
+projects.1.tags.3,appliances,string
+projects.1.tags.4,modular,string
 projects.1.location,Gurgaon,string
-projects.1.image,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
-projects.1.alt,Cyber City Workspace interior project,string
+projects.1.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546650/197.jpg,string
+projects.1.alt,Gurgaon Family Kitchen interior project,string
 projects.1.placeholder,true,boolean
-projects.2.duration,To be confirmed,string
-projects.2.gallery.0,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
-projects.2.gallery.1,https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86,string
-projects.2.gallery.2,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-projects.2.gallery.3,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
-projects.2.description,"A familiar family home renewed with lighter finishes, smarter storage and easier movement.",string
-projects.2.scope,"Living room, bedrooms, storage and finish upgrades",string
-projects.2.brief,"The owners wanted to retain the warmth of their long-lived home while updating its storage, lighting and everyday usability.",string
-projects.2.challenge,The renovation needed to respect existing elements and limit disruption while giving the rooms a coherent new character.,string
-projects.2.solution,"A lighter palette, integrated joinery and selective surface upgrades make the home feel calm, open and distinctly personal.",string
+projects.2.duration,Defined after site assessment,string
+projects.2.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546741/270.jpg,string
+projects.2.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546739/271.jpg,string
+projects.2.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546736/268.jpg,string
+projects.2.gallery.3,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546733/265.jpg,string
+projects.2.description,"A considered living-room renewal that preserves the familiarity of a family home while improving light, storage and day-to-day comfort.",string
+projects.2.scope,"Living-room reconfiguration, custom storage, lighting renewal, finish selection and furniture placement",string
+projects.2.brief,"The owners wanted a more current, practical living room without erasing the warmth and memories already held in the home.",string
+projects.2.challenge,"New storage, lighting and seating had to improve function within the existing shell, while the renovation needed to remain measured and minimally disruptive.",string
+projects.2.solution,"A lighter material palette, edited architectural details and purpose-built storage simplify the room, improve circulation and retain its lived-in sense of character.",string
 projects.2.slug,pitampura-family-home,string
 projects.2.name,Pitampura Family Home,string
 projects.2.type,Renovation,string
-projects.2.category,residential,string
-projects.2.tags.0,residential,string
+projects.2.category,living-room,string
+projects.2.tags.0,living-room,string
 projects.2.tags.1,renovation,string
 projects.2.tags.2,home,string
+projects.2.tags.3,family,string
+projects.2.tags.4,warm,string
 projects.2.location,Delhi,string
-projects.2.image,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86,string
+projects.2.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546715/256.jpg,string
 projects.2.alt,Pitampura Family Home interior project,string
 projects.2.placeholder,true,boolean
-projects.3.duration,To be confirmed,string
-projects.3.gallery.0,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-projects.3.gallery.1,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
-projects.3.gallery.2,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
-projects.3.gallery.3,https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86,string
-projects.3.description,A relaxed neighbourhood cafe shaped by tactile finishes and an easy indoor-outdoor mood.,string
-projects.3.scope,"Dining, service counter, lighting and customer experience",string
-projects.3.brief,The client wanted a memorable hospitality space that felt welcoming throughout the day and worked efficiently during peak service.,string
-projects.3.challenge,"Customer flow, table density and operational movement had to be resolved within a compact footprint.",string
-projects.3.solution,"Distinct seating zones, warm ambient light and robust natural textures create character while protecting service efficiency.",string
+projects.3.duration,Defined after site assessment,string
+projects.3.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546116/76.jpg,string
+projects.3.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/74.jpg,string
+projects.3.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/73.jpg,string
+projects.3.gallery.3,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546114/72.jpg,string
+projects.3.description,"A neighbourhood café designed for an unhurried daytime rhythm, with tactile finishes, soft light and a clear operational backbone.",string
+projects.3.scope,"Customer journey, seating mix, service counter, lighting concept, material palette and hospitality detailing",string
+projects.3.brief,"The ambition was a café that feels inviting from the first coffee of the day through a busy evening service, without compromising the team’s speed or the guest’s comfort.",string
+projects.3.challenge,"A compact floor plate had to balance queueing, counter service, table density and staff movement while still offering guests distinct places to meet, work or pause.",string
+projects.3.solution,"A legible counter sequence, varied seating zones, warm pools of light and robust natural finishes create an atmosphere-led café that remains efficient at peak hours.",string
 projects.3.slug,courtyard-cafe,string
 projects.3.name,Courtyard Cafe,string
 projects.3.type,Hospitality,string
-projects.3.category,hospitality,string
-projects.3.tags.0,commercial,string
+projects.3.category,cafe,string
+projects.3.tags.0,cafe,string
 projects.3.tags.1,hospitality,string
-projects.3.tags.2,restaurant,string
+projects.3.tags.2,dining,string
+projects.3.tags.3,restaurant,string
+projects.3.tags.4,social,string
 projects.3.location,Delhi NCR,string
-projects.3.image,https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86,string
+projects.3.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/75.jpg,string
 projects.3.alt,Courtyard Cafe interior project,string
 projects.3.placeholder,true,boolean
-projects.4.duration,To be confirmed,string
-projects.4.gallery.0,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
-projects.4.gallery.1,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
-projects.4.gallery.2,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-projects.4.gallery.3,https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86,string
-projects.4.description,"A composed retail setting designed to let products, materials and personal service take focus.",string
-projects.4.scope,"Display system, trial area, lighting and brand touchpoints",string
-projects.4.brief,The boutique needed a polished customer journey with flexible displays that could adapt to new collections.,string
-projects.4.challenge,Storage and sales functions had to remain discreet without reducing the sense of openness.,string
-projects.4.solution,"A modular display rhythm, concealed storage and precise accent lighting create an elegant, adaptable showroom.",string
-projects.4.slug,boutique-retail-studio,string
-projects.4.name,Boutique Retail Studio,string
-projects.4.type,Retail / Showroom,string
-projects.4.category,commercial,string
-projects.4.tags.0,commercial,string
-projects.4.tags.1,retail,string
-projects.4.tags.2,showroom,string
+projects.4.duration,Defined after site assessment,string
+projects.4.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546137/91.jpg,string
+projects.4.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546865/322.jpg,string
+projects.4.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546739/271.jpg,string
+projects.4.description,"A daylight-led living room that pairs relaxed seating with disciplined storage, creating a polished space that still feels easy to use.",string
+projects.4.scope,"Living-room zoning, seating selection, media wall, concealed storage, decorative lighting and styling direction",string
+projects.4.brief,"The family asked for a welcoming social room that could host visitors comfortably, support quiet downtime and keep everyday clutter out of sight.",string
+projects.4.challenge,"The media wall, seating group and storage needed to work as one composition without interrupting daylight or crowding the circulation path.",string
+projects.4.solution,"Low-profile furniture, a quietly detailed media wall, concealed cabinetry and layered decorative lighting create a refined living room with an open, lived-in quality.",string
+projects.4.slug,sunlit-living-room,string
+projects.4.name,Sunlit Living Room,string
+projects.4.type,Living Room Interior,string
+projects.4.category,living-room,string
+projects.4.tags.0,living-room,string
+projects.4.tags.1,seating,string
+projects.4.tags.2,media-wall,string
+projects.4.tags.3,storage,string
+projects.4.tags.4,daylight,string
 projects.4.location,Delhi,string
-projects.4.image,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
-projects.4.alt,Boutique Retail Studio interior project,string
+projects.4.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546734/266.jpg,string
+projects.4.alt,Sunlit Living Room interior project,string
 projects.4.placeholder,true,boolean
-projects.5.duration,To be confirmed,string
-projects.5.gallery.0,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86,string
-projects.5.gallery.1,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
-projects.5.gallery.2,https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86,string
-projects.5.gallery.3,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-projects.5.description,"A compact apartment made more generous through soft tones, built-in storage and clean sightlines.",string
-projects.5.scope,"Living, bedrooms, kitchen and space optimisation",string
-projects.5.brief,"The family asked for a bright, low-maintenance home with enough storage for daily life and a comfortable setting for guests.",string
-projects.5.challenge,Every room needed to work harder without feeling filled with furniture or heavy joinery.,string
-projects.5.solution,"Full-height storage, pale finishes and visually light furniture preserve openness while meeting practical needs.",string
+projects.5.duration,Defined after site assessment,string
+projects.5.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546736/268.jpg,string
+projects.5.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546741/270.jpg,string
+projects.5.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546739/271.jpg,string
+projects.5.gallery.3,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546715/256.jpg,string
+projects.5.description,"A compact apartment living room made to feel more generous through disciplined planning, visually light furniture and storage that works in the background.",string
+projects.5.scope,"Living-room layout, compact seating, dining integration, media storage, lighting and space-optimisation strategy",string
+projects.5.brief,"The owners wanted the apartment’s main room to comfortably support family time and guests while remaining bright, low-maintenance and easy to move through.",string
+projects.5.challenge,"Every piece had to earn its place: seating, dining, media and storage needed to coexist in a limited footprint without making the room feel overfilled.",string
+projects.5.solution,"A compact furniture plan, full-height storage and a light-toned material palette make the living room feel clearer, more adaptable and noticeably more spacious.",string
 projects.5.slug,noida-apartment,string
 projects.5.name,Noida Apartment,string
 projects.5.type,Apartment Interior,string
-projects.5.category,residential,string
-projects.5.tags.0,residential,string
+projects.5.category,living-room,string
+projects.5.tags.0,living-room,string
 projects.5.tags.1,apartment,string
 projects.5.tags.2,home,string
+projects.5.tags.3,storage,string
+projects.5.tags.4,compact,string
 projects.5.location,Noida,string
-projects.5.image,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
+projects.5.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546733/265.jpg,string
 projects.5.alt,Noida Apartment interior project,string
 projects.5.placeholder,true,boolean
-projects.6.duration,To be confirmed,string
-projects.6.gallery.0,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
-projects.6.gallery.1,https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86,string
-projects.6.gallery.2,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
-projects.6.gallery.3,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-projects.6.description,"A reassuring healthcare arrival space with intuitive movement, privacy and a calm material palette.",string
-projects.6.scope,"Reception, waiting, consultation approach and lighting",string
-projects.6.brief,The clinic needed a professional first impression that reduced visual stress and made patient movement easy to understand.,string
-projects.6.challenge,"Privacy, accessibility and operational visibility required careful coordination in a limited front-of-house area.",string
-projects.6.solution,"Clear zoning, soft indirect light and durable finishes create an orderly environment that still feels warm and human.",string
-projects.6.slug,clinic-reception,string
-projects.6.name,Clinic Reception,string
-projects.6.type,Healthcare Interior,string
-projects.6.category,commercial,string
-projects.6.tags.0,commercial,string
-projects.6.tags.1,office,string
-projects.6.tags.2,clinic,string
+projects.6.duration,Defined after site assessment,string
+projects.6.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546652/200.jpg,string
+projects.6.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546657/206.jpg,string
+projects.6.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546659/212.jpg,string
+projects.6.gallery.3,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546659/213.jpg,string
+projects.6.description,"A streamlined modular kitchen that combines serious everyday utility with a crisp, calm material expression.",string
+projects.6.scope,"Modular cabinetry, work-triangle planning, tall-unit storage, appliance integration, lighting and surface specification",string
+projects.6.brief,"The household wanted a kitchen that keeps cookware, provisions and appliances organised, with a layout that feels intuitive for both quick meals and longer cooking sessions.",string
+projects.6.challenge,"The sink, hob, refrigerator and storage had to be placed for efficient movement in a compact plan, while the cabinetry needed to avoid feeling heavy or overly technical.",string
+projects.6.solution,"A clear work triangle, integrated appliances, full-height storage and concealed task lighting create a highly usable kitchen with a clean, enduring finish palette.",string
+projects.6.slug,gurgaon-modular-kitchen,string
+projects.6.name,Gurgaon Modular Kitchen,string
+projects.6.type,Kitchen Interior,string
+projects.6.category,kitchen,string
+projects.6.tags.0,kitchen,string
+projects.6.tags.1,modular,string
+projects.6.tags.2,storage,string
+projects.6.tags.3,appliances,string
+projects.6.tags.4,work-triangle,string
 projects.6.location,Gurgaon,string
-projects.6.image,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
-projects.6.alt,Clinic Reception interior project,string
+projects.6.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546650/197.jpg,string
+projects.6.alt,Gurgaon Modular Kitchen interior project,string
 projects.6.placeholder,true,boolean
-projects.7.duration,To be confirmed,string
-projects.7.gallery.0,https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86,string
-projects.7.gallery.1,https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86,string
-projects.7.gallery.2,https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86,string
-projects.7.gallery.3,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
-projects.7.description,A villa renovation that pairs generous proportions with restrained detail and natural warmth.,string
-projects.7.scope,"Living areas, bedrooms, lighting and material renewal",string
-projects.7.brief,The owners wanted to simplify an ornate interior and create a quieter backdrop for family life and collected objects.,string
-projects.7.challenge,The new language had to connect rooms of different scales while retaining useful existing construction.,string
-projects.7.solution,"Consistent flooring, warm neutrals and edited architectural details bring continuity and a more relaxed sense of luxury.",string
+projects.7.duration,Defined after site assessment,string
+projects.7.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546740/259.jpg,string
+projects.7.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546733/265.jpg,string
+projects.7.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546735/267.jpg,string
+projects.7.gallery.3,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546744/277.jpg,string
+projects.7.description,"A villa living-room renovation that trades ornament for proportion, texture and a more relaxed sense of everyday luxury.",string
+projects.7.scope,"Living-room renovation, architectural detailing, lighting renewal, furniture layout and material palette development",string
+projects.7.brief,"The owners wanted the main living spaces to feel quieter and more contemporary while retaining the generosity, warmth and personal character of the villa.",string
+projects.7.challenge,The renewed living room had to bring together areas of different scales and retain useful existing construction without carrying forward a visually busy language.,string
+projects.7.solution,"A consistent floor and wall palette, edited detailing, softer lighting and tailored furniture zoning give the living spaces a calm, cohesive and lasting character.",string
 projects.7.slug,warm-minimal-villa,string
 projects.7.name,Warm Minimal Villa,string
 projects.7.type,Villa Renovation,string
-projects.7.category,renovation,string
-projects.7.tags.0,residential,string
+projects.7.category,living-room,string
+projects.7.tags.0,living-room,string
 projects.7.tags.1,renovation,string
 projects.7.tags.2,villa,string
+projects.7.tags.3,family,string
+projects.7.tags.4,warm,string
 projects.7.location,Faridabad,string
-projects.7.image,https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86,string
+projects.7.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546751/276.jpg,string
 projects.7.alt,Warm Minimal Villa interior project,string
 projects.7.placeholder,true,boolean
-projects.8.duration,To be confirmed,string
-projects.8.gallery.0,https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86,string
-projects.8.gallery.1,https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86,string
-projects.8.gallery.2,https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86,string
-projects.8.gallery.3,https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86,string
-projects.8.description,"A small restaurant with strong atmosphere, efficient service flow and a distinctive evening identity.",string
-projects.8.scope,"Dining layout, counter, lighting and finish specification",string
-projects.8.brief,The concept called for an intimate dining room that could achieve good capacity without compromising guest comfort.,string
-projects.8.challenge,"Kitchen movement, table spacing and visual impact all competed for a narrow footprint.",string
-projects.8.solution,"A disciplined plan, layered wall treatments and focused pools of light make the room feel richer and more spacious.",string
+projects.8.duration,Defined after site assessment,string
+projects.8.gallery.0,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546116/76.jpg,string
+projects.8.gallery.1,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/74.jpg,string
+projects.8.gallery.2,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/73.jpg,string
+projects.8.gallery.3,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546114/72.jpg,string
+projects.8.description,"A compact café-dining interior built around an intimate guest experience, warm evening atmosphere and a plan that supports efficient service.",string
+projects.8.scope,"Café-dining layout, seating density, counter planning, lighting strategy, finish selection and guest-flow coordination",string
+projects.8.brief,"The concept required a memorable, welcoming dining space that could achieve useful capacity without making tables feel compressed or service feel exposed.",string
+projects.8.challenge,"Table spacing, counter activity, back-of-house movement and visual impact all competed for a narrow footprint and had to be resolved as one guest experience.",string
+projects.8.solution,"A disciplined seating plan, layered wall finishes and focused lighting create a café interior that feels intimate and expressive while keeping circulation and service clear.",string
 projects.8.slug,compact-restaurant,string
 projects.8.name,Compact Restaurant,string
 projects.8.type,Restaurant Interior,string
-projects.8.category,hospitality,string
-projects.8.tags.0,commercial,string
+projects.8.category,cafe,string
+projects.8.tags.0,cafe,string
 projects.8.tags.1,hospitality,string
 projects.8.tags.2,restaurant,string
+projects.8.tags.3,dining,string
+projects.8.tags.4,compact,string
 projects.8.location,Delhi,string
-projects.8.image,https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86,string
+projects.8.image,https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/75.jpg,string
 projects.8.alt,Compact Restaurant interior project,string
 projects.8.placeholder,true,boolean
 filters.0.label,All,string
 filters.0.value,all,string
-filters.1.label,Residential,string
-filters.1.value,residential,string
-filters.2.label,Commercial,string
-filters.2.value,commercial,string
-filters.3.label,Office,string
-filters.3.value,office,string
-filters.4.label,Renovation,string
-filters.4.value,renovation,string
-filters.5.label,Hospitality,string
-filters.5.value,hospitality,string
+filters.1.label,Living Rooms,string
+filters.1.value,living-room,string
+filters.2.label,Kitchens,string
+filters.2.value,kitchen,string
+filters.3.label,Cafés,string
+filters.3.value,cafe,string
 layout.skipLabel,Skip to content,string
 layout.skipHref,#main,string
 layout.mainId,main,string
@@ -442,16 +454,16 @@ pages.services.cta.href,/contact,string
 pages.services.cta.label,Send Project Details,string
 pages.showcase.seo.title,Showcase,string
 pages.showcase.seo.path,/showcase,string
-pages.showcase.seo.description,"Interior design showcase with residential, commercial, office and renovation projects.",string
+pages.showcase.seo.description,"Explore café, kitchen and living-room interior concepts shaped around real use, thoughtful planning and material character.",string
 pages.showcase.hero.eyebrow,Showcase,string
-pages.showcase.hero.title,"Selected interiors, organised by space type.",string
-pages.showcase.hero.text,"Review sample residential, commercial, office, renovation and hospitality work. Search and filters are handled directly in the Next.js interface.",string
+pages.showcase.hero.title,"Cafés, kitchens and living rooms—designed around how they are used.",string
+pages.showcase.hero.text,"Explore space-led concept studies with a clear design brief, scope, challenge and solution for every project.",string
 pages.showcase.filtersLabel,Project filters,string
 pages.showcase.searchLabel,Search projects,string
-pages.showcase.searchPlaceholder,"Search by location, style or service",string
+pages.showcase.searchPlaceholder,"Search by space, location or feature",string
 pages.showcase.resultSingular,result,string
 pages.showcase.resultPlural,results,string
-pages.showcase.sampleLabel,Sample content,string
+pages.showcase.sampleLabel,Concept study,string
 pages.showcase.empty.title,No matching projects,string
 pages.showcase.empty.text,Try a broader search term or choose a different category.,string
 pages.showcase.cta.eyebrow,Like a project?,string
@@ -541,10 +553,11 @@ pages.contact.fields.8.placeholder,"Tell us about the space, requirements and pr
 pages.contact.fields.8.full,true,boolean
 pages.contact.upload.label,File uploads,string
 pages.contact.upload.text,File upload support can be connected with the final form service or CRM.,string
-pages.project.sampleLabel,Sample content,string
+pages.project.sampleLabel,Concept study,string
 pages.project.factsEyebrow,Project facts,string
 pages.project.factLabels.location,Location,string
 pages.project.factLabels.category,Category,string
+pages.project.factLabels.type,Project type,string
 pages.project.factLabels.scope,Scope,string
 pages.project.factLabels.duration,Duration,string
 pages.project.briefTitle,Client brief,string

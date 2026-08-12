@@ -8,7 +8,7 @@
     "studioLine": "INTERIORS / DELHI NCR",
     "tagline": "Spaces with purpose. Details with meaning.",
     "description": "Premium residential and commercial interior design, planning and turnkey execution across Delhi NCR.",
-    "baseUrl": "https://design-essentials-p3.vercel.app",
+    "baseUrl": "https://design-essentials-w1.vercel.app",
     "phone": "+91 98110 06842",
     "phoneHref": "tel:+919811006842",
     "email": "info@designessentials.co.in",
@@ -62,21 +62,21 @@
     }
   ],
   "imageLibrary": {
-    "hero": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=86",
-    "intro": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86",
-    "residential": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
-    "commercial": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
-    "turnkey": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
-    "renovation": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=86",
-    "residence": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86",
-    "exterior": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86",
-    "material": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
-    "consultation": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86",
-    "bedroom": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
-    "villa": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86",
-    "cafe": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86",
-    "retail": "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86"
-  },
+  "hero": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546040/20.jpg",
+  "intro": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546046/25.jpg",
+  "residential": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546237/128.jpg",
+  "commercial": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546744/275.jpg",
+  "turnkey": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546658/210.jpg",
+  "renovation": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546144/96.jpg",
+  "residence": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546672/231.jpg",
+  "exterior": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546997/363.jpg",
+  "material": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546265/143.jpg",
+  "consultation": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546112/59.jpg",
+  "bedroom": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546340/51.jpg",
+  "villa": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546255/136.jpg",
+  "cafe": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/73.jpg",
+  "retail": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546260/141.jpg"
+},
   "services": [
     {
       "id": "residential",
@@ -85,7 +85,7 @@
       "shortTitle": "Residential interiors",
       "description": "Complete home interiors, modular kitchens, wardrobes, living rooms, bedrooms and renovation planning for apartments, villas and builder floors.",
       "summary": "Complete homes, kitchens, wardrobes and rooms.",
-      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546237/128.jpg",
       "alt": "Residential interior design",
       "points": [
         "Space planning and furniture layout",
@@ -101,7 +101,7 @@
       "shortTitle": "Commercial interiors",
       "description": "Office, retail, clinic, hospitality and showroom interiors designed around workflow, customer experience, brand presence and business continuity.",
       "summary": "Offices, retail, clinics, restaurants and showrooms.",
-      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546744/275.jpg",
       "alt": "Commercial office interior design",
       "points": [
         "Office and workspace planning",
@@ -117,7 +117,7 @@
       "shortTitle": "Turnkey execution",
       "description": "For clients who want one accountable team to manage design, sourcing, contractors, installation and final handover.",
       "summary": "Civil, furniture, electrical, procurement and site coordination.",
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546658/210.jpg",
       "alt": "Turnkey interior execution",
       "points": [
         "Civil, electrical, plumbing and false ceiling coordination",
@@ -133,7 +133,7 @@
       "shortTitle": "Renovation",
       "description": "Existing spaces reworked with a focus on better layout, updated finishes, improved lighting and practical upgrades.",
       "summary": "Existing spaces reworked with minimal disruption.",
-      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546144/96.jpg",
       "alt": "Interior renovation",
       "points": [
         "Space optimisation",
@@ -189,245 +189,261 @@
   ],
   "projects": [
     {
-      "duration": "To be verified with client",
+      "duration": "Defined after site assessment",
       "gallery": [
-        "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86"
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546751/276.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546744/277.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546740/259.jpg"
       ],
-      "description": "A calm family home concept built around warm textures, concealed storage and natural light.",
-      "scope": "Living, bedrooms, kitchen and wardrobes",
-      "brief": "The family wanted a refined home that felt warm, uncluttered and easy to maintain. The layout needed better storage, improved circulation and a consistent material language.",
-      "challenge": "The challenge was to create a premium mood without making the apartment feel heavy or over-designed. Every element had to support daily family use.",
-      "solution": "A restrained palette, layered textures, concealed storage and simple furniture lines create a calm home with enough flexibility for everyday life.",
+      "description": "A quietly tailored family living room where warm mineral tones, generous seating and integrated storage create an easy setting for everyday life.",
+      "scope": "Living-room planning, seating layout, media joinery, display storage, lighting and soft-furnishing direction",
+      "brief": "The family wanted their main room to feel composed enough for guests and relaxed enough for daily use, with a clear place for media, books and objects collected over time.",
+      "challenge": "The room needed substantial storage and comfortable seating without losing the openness, daylight and calm visual rhythm that make a living room feel generous.",
+      "solution": "A low, linear furniture plan is paired with integrated joinery, layered ambient lighting and a restrained sand-and-timber palette to give the room warmth, order and flexibility.",
       "slug": "sandstone-residence",
       "name": "Sandstone Residence",
       "type": "3BHK Residence",
-      "category": "residential",
+      "category": "living-room",
       "tags": [
+        "living-room",
         "residential",
         "home",
-        "3bhk",
-        "turnkey"
+        "family",
+        "storage"
       ],
       "location": "Gurgaon",
-      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546735/267.jpg",
       "alt": "Sandstone Residence interior project",
       "placeholder": true
     },
     {
-      "duration": "To be confirmed",
+      "duration": "Defined after site assessment",
       "gallery": [
-        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86"
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546659/212.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546659/213.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546657/206.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546652/200.jpg"
       ],
-      "description": "A focused workplace balancing collaborative energy with quiet, concentrated work.",
-      "scope": "Reception, workstations, meeting rooms and breakout areas",
-      "brief": "The team needed a flexible office that could support focused work, informal reviews and client meetings without losing a clear visual identity.",
-      "challenge": "Acoustic privacy and generous circulation had to coexist within an efficient commercial floor plate.",
-      "solution": "Layered lighting, warm timber notes and carefully zoned shared spaces give the office clarity without making it feel rigid.",
-      "slug": "cyber-city-workspace",
-      "name": "Cyber City Workspace",
-      "type": "Office Interior",
-      "category": "commercial",
+      "description": "A practical family kitchen that brings prep, cooking, cleaning and casual dining into one clear, efficient sequence.",
+      "scope": "Kitchen planning, appliance integration, pantry storage, breakfast counter, task lighting and durable finish specification",
+      "brief": "The household needed a kitchen that could handle daily cooking, school-day breakfasts and weekly stocking without turning the counter or circulation route into a bottleneck.",
+      "challenge": "The compact footprint had to accommodate a complete appliance set, generous dry storage and two-person movement while keeping the room bright and visually calm.",
+      "solution": "Full-height pantry units, an integrated appliance wall, continuous worktops and under-cabinet lighting create a functional kitchen with easy reach, clean lines and lasting materials.",
+      "slug": "gurgaon-family-kitchen",
+      "name": "Gurgaon Family Kitchen",
+      "type": "Kitchen Interior",
+      "category": "kitchen",
       "tags": [
-        "commercial",
-        "office",
-        "workspace"
+        "kitchen",
+        "family",
+        "storage",
+        "appliances",
+        "modular"
       ],
       "location": "Gurgaon",
-      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
-      "alt": "Cyber City Workspace interior project",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546650/197.jpg",
+      "alt": "Gurgaon Family Kitchen interior project",
       "placeholder": true
     },
     {
-      "duration": "To be confirmed",
-      "gallery": [
-        "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86"
+      "duration": "Defined after site assessment",
+     "gallery": [
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546741/270.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546739/271.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546736/268.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546733/265.jpg"
       ],
-      "description": "A familiar family home renewed with lighter finishes, smarter storage and easier movement.",
-      "scope": "Living room, bedrooms, storage and finish upgrades",
-      "brief": "The owners wanted to retain the warmth of their long-lived home while updating its storage, lighting and everyday usability.",
-      "challenge": "The renovation needed to respect existing elements and limit disruption while giving the rooms a coherent new character.",
-      "solution": "A lighter palette, integrated joinery and selective surface upgrades make the home feel calm, open and distinctly personal.",
+      "description": "A considered living-room renewal that preserves the familiarity of a family home while improving light, storage and day-to-day comfort.",
+      "scope": "Living-room reconfiguration, custom storage, lighting renewal, finish selection and furniture placement",
+      "brief": "The owners wanted a more current, practical living room without erasing the warmth and memories already held in the home.",
+      "challenge": "New storage, lighting and seating had to improve function within the existing shell, while the renovation needed to remain measured and minimally disruptive.",
+      "solution": "A lighter material palette, edited architectural details and purpose-built storage simplify the room, improve circulation and retain its lived-in sense of character.",
       "slug": "pitampura-family-home",
       "name": "Pitampura Family Home",
       "type": "Renovation",
-      "category": "residential",
+      "category": "living-room",
       "tags": [
-        "residential",
+        "living-room",
         "renovation",
-        "home"
+        "home",
+        "family",
+        "warm"
       ],
       "location": "Delhi",
-      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546715/256.jpg",
       "alt": "Pitampura Family Home interior project",
       "placeholder": true
     },
     {
-      "duration": "To be confirmed",
+      "duration": "Defined after site assessment",
       "gallery": [
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86"
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546116/76.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/74.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/73.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546114/72.jpg"
       ],
-      "description": "A relaxed neighbourhood cafe shaped by tactile finishes and an easy indoor-outdoor mood.",
-      "scope": "Dining, service counter, lighting and customer experience",
-      "brief": "The client wanted a memorable hospitality space that felt welcoming throughout the day and worked efficiently during peak service.",
-      "challenge": "Customer flow, table density and operational movement had to be resolved within a compact footprint.",
-      "solution": "Distinct seating zones, warm ambient light and robust natural textures create character while protecting service efficiency.",
+      "description": "A neighbourhood café designed for an unhurried daytime rhythm, with tactile finishes, soft light and a clear operational backbone.",
+      "scope": "Customer journey, seating mix, service counter, lighting concept, material palette and hospitality detailing",
+      "brief": "The ambition was a café that feels inviting from the first coffee of the day through a busy evening service, without compromising the team’s speed or the guest’s comfort.",
+      "challenge": "A compact floor plate had to balance queueing, counter service, table density and staff movement while still offering guests distinct places to meet, work or pause.",
+      "solution": "A legible counter sequence, varied seating zones, warm pools of light and robust natural finishes create an atmosphere-led café that remains efficient at peak hours.",
       "slug": "courtyard-cafe",
       "name": "Courtyard Cafe",
       "type": "Hospitality",
-      "category": "hospitality",
+      "category": "cafe",
       "tags": [
-        "commercial",
+        "cafe",
         "hospitality",
-        "restaurant"
+        "dining",
+        "restaurant",
+        "social"
       ],
       "location": "Delhi NCR",
-      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/75.jpg",
       "alt": "Courtyard Cafe interior project",
       "placeholder": true
     },
     {
-      "duration": "To be confirmed",
+      "duration": "Defined after site assessment",
       "gallery": [
-        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86"
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546137/91.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546865/322.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546739/271.jpg"
       ],
-      "description": "A composed retail setting designed to let products, materials and personal service take focus.",
-      "scope": "Display system, trial area, lighting and brand touchpoints",
-      "brief": "The boutique needed a polished customer journey with flexible displays that could adapt to new collections.",
-      "challenge": "Storage and sales functions had to remain discreet without reducing the sense of openness.",
-      "solution": "A modular display rhythm, concealed storage and precise accent lighting create an elegant, adaptable showroom.",
-      "slug": "boutique-retail-studio",
-      "name": "Boutique Retail Studio",
-      "type": "Retail / Showroom",
-      "category": "commercial",
+      "description": "A daylight-led living room that pairs relaxed seating with disciplined storage, creating a polished space that still feels easy to use.",
+      "scope": "Living-room zoning, seating selection, media wall, concealed storage, decorative lighting and styling direction",
+      "brief": "The family asked for a welcoming social room that could host visitors comfortably, support quiet downtime and keep everyday clutter out of sight.",
+      "challenge": "The media wall, seating group and storage needed to work as one composition without interrupting daylight or crowding the circulation path.",
+      "solution": "Low-profile furniture, a quietly detailed media wall, concealed cabinetry and layered decorative lighting create a refined living room with an open, lived-in quality.",
+      "slug": "sunlit-living-room",
+      "name": "Sunlit Living Room",
+      "type": "Living Room Interior",
+      "category": "living-room",
       "tags": [
-        "commercial",
-        "retail",
-        "showroom"
+        "living-room",
+        "seating",
+        "media-wall",
+        "storage",
+        "daylight"
       ],
       "location": "Delhi",
-      "image": "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
-      "alt": "Boutique Retail Studio interior project",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546734/266.jpg",
+      "alt": "Sunlit Living Room interior project",
       "placeholder": true
     },
     {
-      "duration": "To be confirmed",
+      "duration": "Defined after site assessment",
       "gallery": [
-        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86"
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546736/268.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546741/270.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546739/271.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546715/256.jpg"
       ],
-      "description": "A compact apartment made more generous through soft tones, built-in storage and clean sightlines.",
-      "scope": "Living, bedrooms, kitchen and space optimisation",
-      "brief": "The family asked for a bright, low-maintenance home with enough storage for daily life and a comfortable setting for guests.",
-      "challenge": "Every room needed to work harder without feeling filled with furniture or heavy joinery.",
-      "solution": "Full-height storage, pale finishes and visually light furniture preserve openness while meeting practical needs.",
+      "description": "A compact apartment living room made to feel more generous through disciplined planning, visually light furniture and storage that works in the background.",
+      "scope": "Living-room layout, compact seating, dining integration, media storage, lighting and space-optimisation strategy",
+      "brief": "The owners wanted the apartment’s main room to comfortably support family time and guests while remaining bright, low-maintenance and easy to move through.",
+      "challenge": "Every piece had to earn its place: seating, dining, media and storage needed to coexist in a limited footprint without making the room feel overfilled.",
+      "solution": "A compact furniture plan, full-height storage and a light-toned material palette make the living room feel clearer, more adaptable and noticeably more spacious.",
       "slug": "noida-apartment",
       "name": "Noida Apartment",
       "type": "Apartment Interior",
-      "category": "residential",
+      "category": "living-room",
       "tags": [
-        "residential",
+        "living-room",
         "apartment",
-        "home"
+        "home",
+        "storage",
+        "compact"
       ],
       "location": "Noida",
-      "image": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546733/265.jpg",
       "alt": "Noida Apartment interior project",
       "placeholder": true
     },
     {
-      "duration": "To be confirmed",
+      "duration": "Defined after site assessment",
       "gallery": [
-        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86"
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546652/200.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546657/206.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546659/212.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546659/213.jpg"
       ],
-      "description": "A reassuring healthcare arrival space with intuitive movement, privacy and a calm material palette.",
-      "scope": "Reception, waiting, consultation approach and lighting",
-      "brief": "The clinic needed a professional first impression that reduced visual stress and made patient movement easy to understand.",
-      "challenge": "Privacy, accessibility and operational visibility required careful coordination in a limited front-of-house area.",
-      "solution": "Clear zoning, soft indirect light and durable finishes create an orderly environment that still feels warm and human.",
-      "slug": "clinic-reception",
-      "name": "Clinic Reception",
-      "type": "Healthcare Interior",
-      "category": "commercial",
+      "description": "A streamlined modular kitchen that combines serious everyday utility with a crisp, calm material expression.",
+      "scope": "Modular cabinetry, work-triangle planning, tall-unit storage, appliance integration, lighting and surface specification",
+      "brief": "The household wanted a kitchen that keeps cookware, provisions and appliances organised, with a layout that feels intuitive for both quick meals and longer cooking sessions.",
+      "challenge": "The sink, hob, refrigerator and storage had to be placed for efficient movement in a compact plan, while the cabinetry needed to avoid feeling heavy or overly technical.",
+      "solution": "A clear work triangle, integrated appliances, full-height storage and concealed task lighting create a highly usable kitchen with a clean, enduring finish palette.",
+      "slug": "gurgaon-modular-kitchen",
+      "name": "Gurgaon Modular Kitchen",
+      "type": "Kitchen Interior",
+      "category": "kitchen",
       "tags": [
-        "commercial",
-        "office",
-        "clinic"
+        "kitchen",
+        "modular",
+        "storage",
+        "appliances",
+        "work-triangle"
       ],
       "location": "Gurgaon",
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86",
-      "alt": "Clinic Reception interior project",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546650/197.jpg",
+      "alt": "Gurgaon Modular Kitchen interior project",
       "placeholder": true
     },
     {
-      "duration": "To be confirmed",
+      "duration": "Defined after site assessment",
       "gallery": [
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1900&q=86",
-        "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86"
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546740/259.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546733/265.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546735/267.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546744/277.jpg"
       ],
-      "description": "A villa renovation that pairs generous proportions with restrained detail and natural warmth.",
-      "scope": "Living areas, bedrooms, lighting and material renewal",
-      "brief": "The owners wanted to simplify an ornate interior and create a quieter backdrop for family life and collected objects.",
-      "challenge": "The new language had to connect rooms of different scales while retaining useful existing construction.",
-      "solution": "Consistent flooring, warm neutrals and edited architectural details bring continuity and a more relaxed sense of luxury.",
+      "description": "A villa living-room renovation that trades ornament for proportion, texture and a more relaxed sense of everyday luxury.",
+      "scope": "Living-room renovation, architectural detailing, lighting renewal, furniture layout and material palette development",
+      "brief": "The owners wanted the main living spaces to feel quieter and more contemporary while retaining the generosity, warmth and personal character of the villa.",
+      "challenge": "The renewed living room had to bring together areas of different scales and retain useful existing construction without carrying forward a visually busy language.",
+      "solution": "A consistent floor and wall palette, edited detailing, softer lighting and tailored furniture zoning give the living spaces a calm, cohesive and lasting character.",
       "slug": "warm-minimal-villa",
       "name": "Warm Minimal Villa",
       "type": "Villa Renovation",
-      "category": "renovation",
+      "category": "living-room",
       "tags": [
-        "residential",
+        "living-room",
         "renovation",
-        "villa"
+        "villa",
+        "family",
+        "warm"
       ],
       "location": "Faridabad",
-      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546751/276.jpg",
       "alt": "Warm Minimal Villa interior project",
       "placeholder": true
     },
     {
-      "duration": "To be confirmed",
+      "duration": "Defined after site assessment",
       "gallery": [
-        "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1567449303078-57ad995bd17f?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=86",
-        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=86"
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546116/76.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/74.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/73.jpg",
+        "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546114/72.jpg"
       ],
-      "description": "A small restaurant with strong atmosphere, efficient service flow and a distinctive evening identity.",
-      "scope": "Dining layout, counter, lighting and finish specification",
-      "brief": "The concept called for an intimate dining room that could achieve good capacity without compromising guest comfort.",
-      "challenge": "Kitchen movement, table spacing and visual impact all competed for a narrow footprint.",
-      "solution": "A disciplined plan, layered wall treatments and focused pools of light make the room feel richer and more spacious.",
+      "description": "A compact café-dining interior built around an intimate guest experience, warm evening atmosphere and a plan that supports efficient service.",
+      "scope": "Café-dining layout, seating density, counter planning, lighting strategy, finish selection and guest-flow coordination",
+      "brief": "The concept required a memorable, welcoming dining space that could achieve useful capacity without making tables feel compressed or service feel exposed.",
+      "challenge": "Table spacing, counter activity, back-of-house movement and visual impact all competed for a narrow footprint and had to be resolved as one guest experience.",
+      "solution": "A disciplined seating plan, layered wall finishes and focused lighting create a café interior that feels intimate and expressive while keeping circulation and service clear.",
       "slug": "compact-restaurant",
       "name": "Compact Restaurant",
       "type": "Restaurant Interior",
-      "category": "hospitality",
+      "category": "cafe",
       "tags": [
-        "commercial",
+        "cafe",
         "hospitality",
-        "restaurant"
+        "restaurant",
+        "dining",
+        "compact"
       ],
       "location": "Delhi",
-      "image": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=86",
+      "image": "https://res.cloudinary.com/gidkxwhb/image/upload/v1786546115/75.jpg",
       "alt": "Compact Restaurant interior project",
       "placeholder": true
     }
@@ -438,24 +454,16 @@
       "value": "all"
     },
     {
-      "label": "Residential",
-      "value": "residential"
+      "label": "Living Rooms",
+      "value": "living-room"
     },
     {
-      "label": "Commercial",
-      "value": "commercial"
+      "label": "Kitchens",
+      "value": "kitchen"
     },
     {
-      "label": "Office",
-      "value": "office"
-    },
-    {
-      "label": "Renovation",
-      "value": "renovation"
-    },
-    {
-      "label": "Hospitality",
-      "value": "hospitality"
+      "label": "Cafés",
+      "value": "cafe"
     }
   ],
   "layout": {
@@ -661,19 +669,19 @@
       "seo": {
         "title": "Showcase",
         "path": "/showcase",
-        "description": "Interior design showcase with residential, commercial, office and renovation projects."
+        "description": "Explore café, kitchen and living-room interior concepts shaped around real use, thoughtful planning and material character."
       },
       "hero": {
         "eyebrow": "Showcase",
-        "title": "Selected interiors, organised by space type.",
-        "text": "Review sample residential, commercial, office, renovation and hospitality work. Search and filters are handled directly in the Next.js interface."
+        "title": "Cafés, kitchens and living rooms—designed around how they are used.",
+        "text": "Explore space-led concept studies with a clear design brief, scope, challenge and solution for every project."
       },
       "filtersLabel": "Project filters",
       "searchLabel": "Search projects",
-      "searchPlaceholder": "Search by location, style or service",
+      "searchPlaceholder": "Search by space, location or feature",
       "resultSingular": "result",
       "resultPlural": "results",
-      "sampleLabel": "Sample content",
+      "sampleLabel": "Concept study",
       "empty": {
         "title": "No matching projects",
         "text": "Try a broader search term or choose a different category."
@@ -815,11 +823,12 @@
       }
     },
     "project": {
-      "sampleLabel": "Sample content",
+      "sampleLabel": "Concept study",
       "factsEyebrow": "Project facts",
       "factLabels": {
         "location": "Location",
         "category": "Category",
+        "type": "Project type",
         "scope": "Scope",
         "duration": "Duration"
       },
