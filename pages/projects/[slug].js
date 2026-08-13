@@ -73,7 +73,9 @@ export function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const siteContent = await getSiteContent()
   const project = siteContent.projects.find((item) => item.slug === params.slug)
+  const revalidateSeconds = Number(siteContent.contentApi?.revalidateSeconds) || 60
+
   return project
-    ? { props: { project, siteContent }, revalidate: siteContent.contentApi?.revalidateSeconds || 60 }
+    ? { props: { project, siteContent }, revalidate: revalidateSeconds }
     : { notFound: true, revalidate: 60 }
 }

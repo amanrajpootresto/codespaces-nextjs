@@ -427,6 +427,18 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.projectsGridTwo {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.projectsGridTwo .projectCard:nth-child(3n) {
+  border-right: 1px solid var(--ink);
+}
+
+.projectsGridTwo .projectCard:nth-child(2n) {
+  border-right: 0;
+}
+
 .projectCard {
   border-right: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
@@ -854,9 +866,14 @@
     grid-template-columns: 1fr;
   }
 
+  .projectsGridTwo {
+    grid-template-columns: 1fr;
+  }
+
   .projectCard,
   .projectCard:nth-child(2n),
-  .projectCard:nth-child(3n) {
+  .projectCard:nth-child(3n),
+  .projectsGridTwo .projectCard:nth-child(n) {
     border-right: 0;
   }
 
