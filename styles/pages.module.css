@@ -525,11 +525,64 @@
   display: grid;
   grid-template-columns: .85fr 1.15fr;
   gap: 6vw;
+  align-items: stretch;
 }
 
 .contactDetails {
   border-right: 1px solid var(--ink);
   padding-right: 5vw;
+}
+
+.contactSupport {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+}
+
+.contactSupportCard {
+  width: 100%;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  padding: clamp(2rem, 3vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contactSupportCard h2 {
+  margin: 0;
+  max-width: 14ch;
+}
+
+.contactSupportCard p {
+  margin: 0;
+  color: #44554e;
+}
+
+.contactSupportActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: .5rem;
+}
+
+.contactSupportActions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: .85rem 1rem;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .7rem;
+  transition: .25s;
+}
+
+.contactSupportActions a:hover {
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .contactImage {
